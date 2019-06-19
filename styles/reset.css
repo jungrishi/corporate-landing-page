@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+clearfix::after {
+    content: "";
+    clear:both;
+    display: table;
+}
+
+h1 {
+    
+    font-family: 'Exo Thin';
+    
+    color: #282828;
+}
+
+.img {
+    max-width: 100%;
+    height: auto;
+}

@@ -1,0 +1,6 @@
+@media (min-width: 768px) {
+    .text-container h1 {
+        font-size: 3.3em;
+        line-height: 75px;
+    }
+}
