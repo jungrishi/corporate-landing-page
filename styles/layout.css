@@ -12,13 +12,30 @@
 .page-wrapper {
     max-width: 90em;
     margin: 0 auto;
-    padding: 75px 36px;
+    padding: 0px 36px;
 }
 
 .header-content {
+    padding: 60px 0px;
     width: 81.250000%;
     height: auto;
     margin:  0 auto;
     text-align: center;
 }
 
+/*body part*/
+.design {
+    margin-top: -2px;
+    width: 100%;
+    background: #ffffff;
+    background: url('../images/Rectangle-21-copy.png') no-repeat;
+
+}
+
+.design-content {
+    font-family: 'Exo Medium', sans-serif;
+    width: 100%;
+    padding: 60px 10px;
+    color: #282828;
+    text-align: justify;
+}

@@ -48,3 +48,21 @@ h1 {
     font-size: 0.8em;
     color: #282828;
 }
+
+/*body*/
+.title {
+    font-size: 1em;
+    line-height: 50px;
+    color: #ff6d6d;
+}
+
+h2 {
+    font-size: 1em;
+    line-height: 2; 
+    margin-bottom: 10px; 
+}
+
+.design-content p {
+    font-size: 1em;
+    line-height: 26px;
+}
