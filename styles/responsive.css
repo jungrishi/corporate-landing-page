@@ -31,8 +31,32 @@
         line-height: 75px;
     }
 
+    .design {
+        background-position: bottom right;
+        background-size: 40%;  
+    }
+
+    .design-content {
+        width: 100%;
+        background: #ffffff;
+    }
+
+    h2 {
+        font-size: 2em;
+        line-height: 32px;
+    }
+}
+
+@media (min-width: 1024px){
     .design-content {
         width: 51.388888%;
+        text-align: left;
     }
+
+    h2 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
 
 }
