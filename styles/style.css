@@ -1,8 +1,17 @@
+h1 {
+    font-family: 'Exo Thin', sans-serif;
+    font-size: 1em;
+    line-height: 1;
+    color: #282828;
+    margin-bottom: 60px;
+}
+
 .play-button{
     position: relative;
     max-width: 67px;
     margin: 0 auto;
 }
+
 .play-circle{
     max-width: 37px;
     min-width: 17px;
@@ -22,15 +31,16 @@
     width: 100%;
     font-family: 'Exo',sans-serif;
     font-size: 1em;
-    height: 54px;
+    
 }
 
 .try-now input[type="submit"] {
-    padding: 10px 40px;
+    padding: 0px 60px;
     background: red;
     border: none;
-    border-radius: 5px;
+    border-radius: 7px;
     color: white;
+    line-height: 54px;
     margin-bottom: 20px;
 }
 

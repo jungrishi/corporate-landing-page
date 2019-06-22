@@ -8,13 +8,7 @@ clearfix::after {
     clear:both;
     display: table;
 }
-h1 {
-    font-family: 'Exo Thin', sans-serif;
-    font-size: 1em;
-    line-height: 1;
-    color: #282828;
-    margin-bottom: 60px;
-}
+
 
 /* h1::after {
     content: '';
