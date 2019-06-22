@@ -27,8 +27,6 @@
 .design {
     width: 100%;
     background: #ffffff;
-    background: url('../images/Rectangle-21-copy.png') no-repeat;
-
 }
 
 .design-content {
@@ -42,6 +40,7 @@
 .features {
     width: 100%;
     background: url("../images/div3.png") no-repeat;
+    background-repeat: no-repeat;
     font-family: 'Exo Medium', sans-serif;  
     background-size: cover;
 }
@@ -56,5 +55,3 @@
     width: 100%;
     max-width: 30px;
 }
-
-

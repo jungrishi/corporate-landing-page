@@ -74,5 +74,19 @@
         text-align: center;
     }
 
+    .design-clear {
+        width: 100%;
+    }
+
+    .design-clear img {
+        width: 50%;
+        float:left;
+        margin-right: 50px;
+    }
+    .res-text {
+        width: 40%;
+        float: left;
+    }
+
 
 }
