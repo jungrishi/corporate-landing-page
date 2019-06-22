@@ -13,11 +13,10 @@ clearfix::after {
     display: table;
 }
 
-
-/* h1::after {
-    content: '';
-    display: table;
-} */
+li, a{
+    text-decoration: none;
+    list-style-type: none;;
+} 
 
 img {
     width: 100%;

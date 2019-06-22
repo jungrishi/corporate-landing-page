@@ -6,6 +6,12 @@ h1 {
     margin-bottom: 60px;
 }
 
+h2 {
+    font-size: 16px;
+    line-height: 20px; 
+    margin-bottom: 20px; 
+}
+
 .play-button{
     position: relative;
     max-width: 67px;
@@ -56,13 +62,13 @@ h1 {
     color: #ff6d6d;
 }
 
-h2 {
-    font-size: 16px;
-    line-height: 20px; 
-    margin-bottom: 10px; 
-}
+
 
 .design-content p {
     font-size: 16px;
     line-height: 26px;
+}
+
+.features-list li:not(:last-child){
+    margin-bottom: 20px;
 }

@@ -39,3 +39,22 @@
     text-align: justify;
 }
 
+.features {
+    width: 100%;
+    background: url("../images/div3.png") no-repeat;
+    font-family: 'Exo Medium', sans-serif;  
+    background-size: cover;
+}
+
+.features-content {
+    width: 100%;
+    padding: 60px 0px;
+    text-align: center;
+}
+
+.features-list img{
+    width: 100%;
+    max-width: 30px;
+}
+
+
