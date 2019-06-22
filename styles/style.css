@@ -1,6 +1,40 @@
-@media (min-width: 768px) {
-    .text-container h1 {
-        font-size: 3.3em;
-        line-height: 75px;
-    }
+.play-button{
+    position: relative;
+    max-width: 67px;
+    margin: 0 auto;
+}
+.play-circle{
+    max-width: 37px;
+    min-width: 17px;
+    height: auto;
+}
+
+.play-icon {
+    position: absolute;
+    top: 8px;
+    left: 41%;
+    max-width: 17px;
+    height: auto;
+}
+
+.try-now{
+    margin-top: 40px;
+    width: 100%;
+    font-family: 'Exo',sans-serif;
+    font-size: 1em;
+    height: 54px;
+}
+
+.try-now input[type="submit"] {
+    padding: 10px 40px;
+    background: red;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.card-detail {
+    font-size: 0.8em;
+    color: #282828;
 }
