@@ -135,3 +135,64 @@ h3 {
     display: inline-block;
     padding-bottom: 10px;
 }
+
+/*footer*/
+.footer-content img {
+    max-width: 40px;
+}
+
+h4 {
+    font-size:22px;
+    line-height: 49.97px;
+}
+
+.dis {
+    width: 100%; 
+}
+
+.dis:not(:last-child) {
+    padding-bottom: 30px;
+}
+
+.dis ul li {
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.dis ul li a {
+    color: #282828;
+}
+
+.dis ul li a:hover {
+    color: #ff44ff;
+}
+
+.footer-diff-style li{
+    line-height: 26px;
+}
+
+.footerlogo img {
+    max-width: 40px;
+}
+
+.footer-logo img {
+    max-width: 10px;
+    padding-right: 10px;
+    margin-top: 10px;
+}
+
+.input-footer {
+    width: 100%;
+}
+
+.prop {
+    font-family: 'Exo', sans-serif;
+    padding: 0 20px;
+    font-size: 16px;
+    line-height: 75px;
+    background: linear-gradient(#f6f6f6, #ff6d6d);
+    background-image: url("../images/newsletter-arraw.png");
+    background-repeat:no-repeat; 
+    background-position: 95%;
+    background-size: 20%;
+}
