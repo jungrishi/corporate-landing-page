@@ -75,6 +75,15 @@
     max-width: 50px; 
 }
 
+.business-partners {
+    margin-top: 50px;
+    width: 100%;
+}
+
+.business-partners img {
+    max-width: 50px;
+}
+
 .new-features {
     width: 100%;
     background: #f6f5f3;

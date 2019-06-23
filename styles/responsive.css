@@ -68,6 +68,16 @@
         margin: 0 auto;
     }
 
+    .business-partners {
+        width: 100%;
+    }
+    
+    .business-partners img {
+        max-width: 100px;
+        display: inline-block;
+        margin-right: 40px;
+    }
+
     .form {
         margin-top: 20px;
     }
@@ -161,6 +171,16 @@
 
     .cofounder-list li:not(:last-child) {
         margin-right: 30px;
+    }
+
+    .business-partners {
+        width: 100%;
+    }
+    
+    .business-partners img {
+        max-width: 180px;
+        display: inline-block;
+        margin-right: 40px;
     }
 
     .browser {
