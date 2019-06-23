@@ -12,6 +12,11 @@ h2 {
     margin-bottom: 20px; 
 }
 
+h3 {
+    font-size: 22px;
+    line-height: 40px;
+}
+
 .play-button{
     position: relative;
     max-width: 67px;
@@ -40,7 +45,7 @@ h2 {
     
 }
 
-.try-now input[type="submit"] {
+.try-now-button {
     padding: 0px 60px;
     background: red;
     border: none;
@@ -63,12 +68,70 @@ h2 {
 }
 
 
-
-.design-content p {
-    font-size: 16px;
-    line-height: 26px;
+.features-list li:not(:last-child){
+    margin-bottom: 30px;
 }
 
-.features-list li:not(:last-child){
-    margin-bottom: 20px;
+
+.cofounder-name {
+    font-size: 22px;
+    line-height: 49.97px;
+    color: #ffffff;
+    font-weight: 400; 
+}
+
+.post {
+    font-size: 16px;
+    padding-bottom: 30px;
+    color: #ff6d6d;
+}
+
+.cofounder-list li p{
+    font-family: 'Exo', sans-serif;
+    color: white;
+}
+
+.cofounder-list li:not(:last-child){
+    padding-bottom: 50px;
+}
+
+.form-wrapper input:not(:last-child) {
+    font-family: 'Exo',sans-serif;
+    background: #464c77;
+    color: white;
+    font-size: 16px;
+    padding: 0 29px;
+    box-sizing: border-box;
+    margin: 10px 0;    
+    border-radius: 10px;
+}
+
+.form-wrapper input {
+    width: 260px;
+    line-height: 50px;
+}
+
+.condition {
+    font-family: 'Exo', sans-serif;
+    font-size: 10px;
+    line-height: 75px;
+    color: white;
+}
+
+.condition a {
+    color: white;
+    text-decoration: underline;
+}
+
+.anamoly  {
+    text-align: right;
+}
+
+.form-wrapper img {
+    max-width: 70px;
+}
+
+.anamoly span {
+    display: inline-block;
+    padding-bottom: 10px;
 }

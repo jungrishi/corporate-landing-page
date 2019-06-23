@@ -12,7 +12,7 @@
 .page-wrapper {
     max-width: 90em;
     margin: 0 auto;
-    padding: 0px 30px;
+    padding: 60px 30px;
 }
 
 .header-content {
@@ -21,6 +21,11 @@
     height: auto;
     margin:  0 auto;
     text-align: center;
+}
+
+.try-now-button {
+    position: sticky;
+    top: 0;
 }
 
 /*body part*/
@@ -32,7 +37,7 @@
 .design-content {
     font-family: 'Exo Medium', sans-serif;
     width: 100%;
-    padding: 60px 0px;
+    /* padding: 60px 0px; */
     color: #282828;
     text-align: justify;
 }
@@ -47,7 +52,7 @@
 
 .features-content {
     width: 100%;
-    padding: 60px 0px;
+    /* padding: 60px 0px; */
     text-align: center;
 }
 
@@ -55,3 +60,48 @@
     width: 100%;
     max-width: 30px;
 }
+
+.cofounder {
+    font-family: 'Exo Medium', sans-serif;
+    width: 100%;
+    background: url("../images/cofounder-bg2.png"), url("../images/cofounder-bg1.png");
+    background-repeat: no-repeat, no-repeat;
+    text-align: center;
+    background-size: cover;
+}
+
+.cofounder-list img {
+    width: 100%;
+    max-width: 50px; 
+}
+
+.new-features {
+    width: 100%;
+    background: #f6f5f3;
+}
+
+.browser {
+    text-align: center;
+}
+
+.browser p {
+    padding-bottom: 100px;
+}
+
+.sign-up {
+    width: 100%;
+    background: url("../images/trynowbg.png") no-repeat;
+    background-size: cover; 
+}
+.form-wrapper {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.anamoly {
+    display: none;
+}
+
+
+

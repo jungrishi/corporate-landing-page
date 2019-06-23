@@ -1,10 +1,6 @@
 @media (min-width: 768px){
     .page-wrapper {
-        padding: 0px 135px;
-    }
-
-    .header-content {
-        padding: 139px 0px;
+        padding: 139px 70px;
     }
 
     h1 {
@@ -21,7 +17,8 @@
 
     h3 {
         font-size: 22px;
-        line-height: 40px;
+        line-height: 32px;
+        margin-bottom: 6px;
     }
 
     .play-button {
@@ -38,25 +35,66 @@
         left: 38%;
     }
 
-    .try-now input[type="submit"] {
-        padding: 0px 100px;
+    .try-now-button {
         font-size: 1.25em;
         line-height: 75px;
     }
 
-    .design {
-        background-position: bottom right;
-        background-size: 40%;  
+    .features-list li {
+        width: 60%;
+        margin: 0 auto;
+}
+    .features-list li:not(:last-child){
+        margin-bottom: 20px; 
+    }
+
+    .xtra-class {
+        width: 70%;
+        margin: 0 auto;
     }
 
     .design-content {
-        width: 100%;
         background: #ffffff;
         text-align: left;
+    }
+
+    .res-text {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .cofounder-list li {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .form {
+        margin-top: 20px;
+    }
+
+    .form-wrapper input {
+        width: 200px;
+        line-height: 50px;
+        padding: 0 10px;
+    }
+
+    .form-wrapper input:not(:last-child){
+        display: inline-block;
+    }
+    .condition {
+        font-size: 16px;
     }
 }
 
 @media (min-width: 1024px){
+
+    .page-wrapper {
+        padding: 139px 9.375%;
+    }
+
+    .anamoly {
+        display: block;
+    }
     .design-content {
         width: 51.388888%;
         text-align: left;
@@ -68,10 +106,17 @@
     }
 
     .features-list li {
-        width: 30%;
-        padding-right: 20px; 
-        display: inline-block;
-        text-align: center;
+        width: 30.7574747%;
+        float: left;
+    }
+
+    .features-list li:not(:last-child) {
+        margin-right: 30px;
+    }
+
+    .xtra-class {
+        width: 60%;
+        margin: 0;
     }
 
     .design-clear {
@@ -80,13 +125,34 @@
 
     .design-clear img {
         width: 50%;
-        float:left;
         margin-right: 50px;
     }
     .res-text {
         width: 40%;
+        float: right;
+    }
+
+    .cofounder-list li {
+        width: 30.7574747%;
         float: left;
     }
 
+    .cofounder-list li:not(:last-child) {
+        margin-right: 30px;
+    }
 
+    .browser {
+        width: 56.250000%;
+        margin: 0 auto;
+    }
+
+    .form-wrapper input {
+        width: 250px;
+        line-height: 75px;
+        padding: 0 29px;
+    }
+
+    .anamoly span {
+        float: right;
+    }
 }
