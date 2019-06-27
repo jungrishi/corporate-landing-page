@@ -1,10 +1,10 @@
 .main-container {
-    width: 100%;
-    margin: 0 auto;
+    min-height: 100vh;
 }
 
 .header{
-    background: url(../images/bg-image1.png) no-repeat;
+    height: 100vh;
+    background: url('../images/bg-image1.png') no-repeat;
     background-size: 100% 100%;
     margin: 0 auto;
 }
@@ -12,11 +12,10 @@
 .page-wrapper {
     max-width: 90em;
     margin: 0 auto;
-    padding: 60px 30px;
+    padding: 90px 20px;
 }
 
 .header-content {
-    padding: 60px 0px;
     width: 81.250000%;
     height: auto;
     margin:  0 auto;
@@ -37,9 +36,9 @@
 .design-content {
     font-family: 'Exo Medium', sans-serif;
     width: 100%;
-    /* padding: 60px 0px; */
     color: #282828;
     text-align: justify;
+    
 }
 
 .features {
@@ -48,17 +47,24 @@
     background-repeat: no-repeat;
     font-family: 'Exo Medium', sans-serif;  
     background-size: cover;
+    background: #f6f5f3;
 }
 
 .features-content {
+    color: #282828;
     width: 100%;
-    /* padding: 60px 0px; */
     text-align: center;
 }
+
 
 .features-list img{
     width: 100%;
     max-width: 30px;
+}
+
+.design-clear img {
+    max-width: 50vw;
+    padding-bottom: 30px;
 }
 
 .cofounder {

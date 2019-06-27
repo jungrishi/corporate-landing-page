@@ -1,24 +1,10 @@
 @media (min-width: 768px){
     .page-wrapper {
-        padding: 139px 70px;
+        padding: 88px 70px;
     }
 
     h1 {
-        font-size: 2em;
-        line-height: 2.5;
-    }
-
-    h2 {
-        font-size: 40px;
-        line-height: 50px;
-        color: #282828;
-        margin-bottom: 20px;
-    }
-
-    h3 {
-        font-size: 22px;
-        line-height: 32px;
-        margin-bottom: 6px;
+        font-size: (2em + 0.1vw);
     }
 
     .play-button {
@@ -48,19 +34,9 @@
         margin-bottom: 20px; 
     }
 
-    .xtra-class {
-        width: 70%;
-        margin: 0 auto;
-    }
-
     .design-content {
         background: #ffffff;
         text-align: left;
-    }
-
-    .res-text {
-        width: 60%;
-        margin: 0 auto;
     }
 
     .cofounder-list li {
@@ -132,11 +108,6 @@
         text-align: left;
     }
 
-    h2 {
-        font-size: 40px;
-        line-height: 50px;
-    }
-
     .features-list li {
         width: 30.7574747%;
         float: left;
@@ -188,11 +159,11 @@
         margin: 0 auto;
     }
 
-    .form-wrapper input {
+    /* .form-wrapper input {
         width: 250px;
         line-height: 75px;
         padding: 0 29px;
-    }
+    } */
 
     .anamoly span {
         float: right;
