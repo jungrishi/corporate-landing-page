@@ -24,28 +24,9 @@
         max-width: 76px;
     }
 
-    .play-circle {
-        max-width: 70px;
-    }
-
-    .play-icon {
-        max-width: 30px;
-        top: 18px;
-        left: 38%;
-    }
-
     .try-now-button {
         font-size: 1.25em;
-        line-height: 75px;
-    }
-
-
-
-    .back-image {
-        background: url("../images/Rectangle-21-copy.png");
-        background-size: 67%;
-        background-position: 192% 6%;
-        background-repeat: no-repeat;
+        line-height: 50px;
     }
 
     .design-content {
@@ -56,26 +37,37 @@
     .features {
         background: url("../images/div3.png") no-repeat;
         background-repeat: no-repeat;
-        background-size: contain; 
+        background-size: cover; 
     }
 
-
-
     .features-list li {
-        width: 60%;
+        width: 40%;
         margin: 0 auto;
 }
     .features-list li:not(:last-child){
         margin-bottom: 20px; 
     }
 
-    .design-content {
-        background: #ffffff;
-        text-align: left;
+    .rect img {
+        display: block;
+        width: 40%;
+        float: left;
+    }
+
+    .rect .res-text {
+        float: right;
+    }
+
+    .cofounder-list {
+        width: 100%;
+    }
+    
+    .cofounder-list li:not(:last-child){
+        margin-bottom: 20px; 
     }
 
     .cofounder-list li {
-        width: 60%;
+        width: 40%;
         margin: 0 auto;
     }
 
@@ -83,23 +75,17 @@
         width: 100%;
     }
     
-    .business-partners img {
-        max-width: 100px;
-        display: inline-block;
-        margin-right: 40px;
-    }
-
     .form {
         margin-top: 20px;
     }
 
-    .form-wrapper input {
+    .form-content input {
         width: 200px;
         line-height: 50px;
         padding: 0 10px;
     }
 
-    .form-wrapper input:not(:last-child){
+    .form-content input:not(:last-child){
         display: inline-block;
     }
 
@@ -107,40 +93,49 @@
         font-size: 16px;
     }
 
-    .footer-diff-style {
+    /* .footer-content {
+
+        text-align: center;
+    } */
+
+    /* .address {
         width: 40%;
+        margin: 0 auto;
     }
 
-    .dis:not(:first-child){
-        width: 30%;
-    }
-
-    .dis {
+    .support {
         float: left;
-    }
+        padding-right: 20px;
+    } */
 
-    .dis:not(:last-child) {
-        padding-bottom:0px;
-        padding-right: 10px
-    }
-
-    .footerlogo img {
-        max-width: 100px;
-    }
+    
 }
 
 @media (min-width: 1024px){
 
     .page-wrapper {
-        padding: 139px 9.375%;
+        padding: 0px 9.375%;
     }
 
-    .anamoly {
-        display: block;
+    h1 {
+        padding-top: 139px;
     }
+
+    .back-image {
+        padding: 139px 0px;
+        background-image: url("../images/Rectangle-21-copy.png");
+        background-size: 237%;
+        background-position: -46% 30%; 
+        background-repeat: no-repeat;
+    }
+
     .design-content {
         width: 51.388888%;
         text-align: left;
+    }
+
+    .features {
+        padding: 139px 0px;
     }
 
     .features-list li {
@@ -165,9 +160,25 @@
         width: 50%;
         margin-right: 50px;
     }
+
+    .rect {
+        background-image: url("../images/Rectangle-21-copy.png");
+        background-size: 121%;
+        background-position: 295% 7%;
+        background-repeat: no-repeat;
+    }
+
+    .rect {
+        padding: 100px 0px;
+    }
+
     .res-text {
         width: 40%;
         float: right;
+    }
+
+    .cofounder {
+        padding: 110px 0px;
     }
 
     .cofounder-list li {
@@ -182,48 +193,102 @@
     .business-partners {
         width: 100%;
     }
-    
-    .business-partners img {
-        max-width: 180px;
-        display: inline-block;
-        margin-right: 40px;
-    }
 
+    .new-features {
+        padding-top: 107px;
+    }
+    
     .browser {
         width: 56.250000%;
         margin: 0 auto;
     }
 
-    /* .form-wrapper input {
-        width: 250px;
-        line-height: 75px;
-        padding: 0 29px;
-    } */
+
+    .sign-up {
+        padding: 110px 0px;
+        text-align: center;
+    }
+
+    .anamoly {
+        display: block;
+        color: white;
+        margin-left: 10px;
+        
+    }
+    .anamoly img {
+        display: block;
+        float: right;
+    }
 
     .anamoly span {
         float: right;
     }
 
-    .footer-content .dis {
-        float: left;
-    }
-
-    .footer-content ul {
+    .form-content {
         width: 100%;
     }
 
-    .dis:not(:first-child) {
-        width: 15%;
+    .form-content input:not(:last-child) {
+        width: 22.564102%;
+        margin-right: calc(3px + 1vw);
+        /* display: block; */
     }
 
-    .startex {
-        width: 30%;
+    .form-content input:last-child {
+        width: 18.333333%;
+        display: inline-block;
+    } 
+
+    .footer {
+        padding: 91px 0px;
+        background: url(../images/Rectangle-21-copy.png) no-repeat;
+        background-size: 70%;
+        background-position: 253% 121%;
     }
 
-    .input-footer {
-        width: 30%;
+    .address img{
+        width: calc(50px + 3vw);
+    }
+
+    .f-left-wrap {
+        width: 50%;
+        float: left;
+    }
+
+    .f-right-wrap {
+        width: 47%;
         float: right;
     }
+
+    .f-left-wrap .address {
+        float: left;
+        width: 55.299154%;
+        margin-right: 30px;    
+    }
+
+    .f-left-wrap .support {
+        width: 36.299154%;
+        float: right;
+    }
+
+    .f-right-wrap .support {
+        width: 30.299154%;
+        float: left;
+    }
+
+    .f-right-wrap .input-footer {
+        width: 67.299154%;
+        float: right;
+    }
+
+    .notify input[type="Email"] {
+        width: 65%;
+    }
+
+
+
+
+   
 
 
 }
