@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="styles/layout.css">
-    <link rel="stylesheet"href="styles/reset.css">
+    <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/responsive.css">
  
@@ -19,8 +19,15 @@
                     <h1>There is no other platforms for you as like </h1>
                 <div class="player">
                     <div class="play-button">
-                        <img src="./images/Ellipse.png" alt="circle" class="play-circle">
-                        <img src="./images/play-icon.png" alt="play-icon" class="play-icon">
+                            <svg 
+                            xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                            width="59px" height="59px">
+                            <path fill-rule="evenodd"  fill="rgb(50, 57, 105)"
+                            d="M29.500,-0.000 C45.792,-0.000 59.000,13.208 59.000,29.500 C59.000,45.792 45.792,59.000 29.500,59.000 C13.208,59.000 0.000,45.792 0.000,29.500 C0.000,13.208 13.208,-0.000 29.500,-0.000 Z"/>
+                            <path fill-rule="evenodd"  fill="rgb(244, 245, 247)"
+                            d="M40.000,29.500 L23.000,39.000 L23.000,20.000 L40.000,29.500 Z"/>
+                            </svg>
                     </div>
                     <div class="try-now">
                         <input type="submit" value="TRY NOW" class="try-now-button">
@@ -41,11 +48,14 @@
                         There is no other platforms for you as like.This landing page is just for you.
                     </h2>
                     <p>
-                        Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Curabitur blandit tempus porttitor. Etiam porta sem malesuada magna mollis euismod. Vestibulum id ligula porta felis euismod semper.
-                        Donec sed odio dui. Aenean lacinia bibendum nulla sed consectetur. Donec ullamcorper nulla non metus auctor fringilla. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a pharetra augue.
+                        Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Curabitur blandit tempus porttitor. Etiam porta sem malesuada magna mollis euismod. Vestibulum id ligula porta felis euismod semper.</p>
+                        <br>
+                        <br>
+                        <p>Donec sed odio dui. Aenean lacinia bibendum nulla sed consectetur. Donec ullamcorper nulla non metus auctor fringilla. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a pharetra augue.
                     </p>
                 </div>
             </div>
+        </div>
         </div>
         <div class="features">
             <div class="page-wrapper">
@@ -74,6 +84,7 @@
                 </div>    
             </div>
         </div>
+        <div class="rect">
         <div class="design">
             <div class="page-wrapper clearfix">
                 <div class="design-content design-clear clearfix">
@@ -89,13 +100,13 @@
                 </div>
             </div>
         </div>
+        </div>
         <div class="cofounder">
             <div class="page-wrapper">
                 <div class="cofounder-list">
                     <ul class="clearfix">
                         <li>
-                            <img src="./images/cofounder.png" alt="cofunder">
-                        
+                            <img src="./images/cofounder.png" alt="cofunder">      
                             <div class="cofounder-name">Jonathan Doe</div>
                             <div class="post">
                                 Co Founder
@@ -106,7 +117,6 @@
                         </li>
                         <li>
                             <img src="./images/cofounder.png" alt="cofunder">
-                        
                             <div class="cofounder-name">Jonathan Doe</div>
                             <div class="post">
                                 Co Founder
@@ -149,73 +159,79 @@
         </div>
         <div class="sign-up">
             <div class="page-wrapper">
-                <div class="form-wrapper">
+                <div class="form-wrapper clearfix">
                     <span class="title">New Features</span>
-                    <h2 class="ellipsis" style="color:white">Over 1000 Desiners using ...</h2>
-                    <div class="anamoly">       
+                    <h2 class="ellipsis clearfix" style="color:white">Over 1000 Desiners using ...</h2>
+                    <div class="anamoly clearfix">      
+                        <span>30 day Trial Free For All</span> 
                         <img src="./images/ARROW.png" alt="arrow.png">
-                        <span>30 day Trial Free For All</span>        
-                    </div>               
-                    <form class="clearfix">            
+                        <!-- <span>30 day Trial Free For All</span>         -->
+                    </div>
+                    <div class="form-content">               
+                    <form>            
                         <input type="text" placeholder="FULL NAME" >
                         <input type="text" placeholder="YOUR EMAIL" >
                         <input type="password" placeholder="PASSWORD">
                         <input type="submit" value="TRY NOW" class="try-now-button">
                     </form>
-                    <div class="condition">By Signing up you agree to our <a href="#">terms & Services</a>.</div>
-                </div>    
+                        <div class="condition">By Signing up you agree to our <a href="#">terms & Services</a>.</div>
+                    </div> 
+                </div>   
             </div>
         </div>
         <div class="footer">
             <div class="page-wrapper">
                 <div class="footer-content clearfix">
-                <div class="address">
-                    <h4><a href ="#"><img src="./images/footerLogo.png" alt="startex"> </a></h4>
-                    <ul>
-                        <li>Aenean lacinia bibendum nulla sed </li>
-                        <li>consectetur. Aenean eu leo quam.</li>
-                        <li>USA &  CAN: 1-888-123-4567</li>
-                        <li> Address: 34 Brokel Rd. NY.</li>
-                    </ul>
-                </div>
-                <div class="support">
-                    <h4>Support</h4>
-                    <ul>
-                        <li>
-                            <a href="#">Help Center</a>
-                        </li>
-                        <li>
-                            <a href="#">Get Started</a>
-                        </li>
-                        <li>
-                            <a href="#">Contact Us</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="support">
-                    <h4>About Us</h4>
-                    <ul>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Terms of Use</a></li>
-                        <li><a href="#">Privacy Policy</a></li>
-                    </ul>
-                </div>
-                <div class="input-footer">
-                    <h4>Get NewsLetter</h4>
-                    <div class="notify">
-                        <input type="Email" placeholder="Email" class="prop">
-                        <button class="button"></button>
-                        <div class="footer-logo">
-                            <a href = "#"><img src="./images/dribbble_S.png" alt="dribble"></a>
-                            <a href = "#"><img src="./images/twitter_S.png" alt="twitter"></a>
-                            <a href = "#"><img src="./images/facebook_S.png" alt="facebook"></a>
-                            <a href = "#"><img src="./images/googleplus_S.png" alt="google+"></a>
+                <div class="f-left-wrap">
+                    <div class="address">
+                        <h4><a href ="#"><img src="./images/footerLogo.png" alt="startex"> </a></h4>
+                        <ul>
+                            <li>Aenean lacinia bibendum nulla sed </li>
+                            <li>consectetur. Aenean eu leo quam.</li>
+                            <li>USA &  CAN: 1-888-123-4567</li>
+                            <li> Address: 34 Brokel Rd. NY.</li>
+                        </ul>
+                    </div>
+                    <div class="support">
+                        <h4>Support</h4>
+                        <ul>
+                            <li>
+                                <a href="#">Help Center</a>
+                            </li>
+                            <li>
+                                <a href="#">Get Started</a>
+                            </li>
+                            <li>
+                                <a href="#">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>  
+                    <div class="f-right-wrap"> 
+                        <div class="support">
+                            <h4>About Us</h4>
+                            <ul>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Terms of Use</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                            </ul>
+                        </div>
+                    <div class="input-footer">
+                        <h4>Get NewsLetter</h4>
+                        <div class="notify">
+                            <input type="Email" placeholder="Email" class="prop">
+                            <button class="button"></button>
+                            <div class="footer-logo">
+                                <a href = "#"><img src="./images/dribbble_S.png" alt="dribble"></a>
+                                <a href = "#"><img src="./images/twitter_S.png" alt="twitter"></a>
+                                <a href = "#"><img src="./images/facebook_S.png" alt="facebook"></a>
+                                <a href = "#"><img src="./images/googleplus_S.png" alt="google+"></a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
             </div>
-        </div>
         </div>
     </div>
     <!-- <script src="./js/script.js"></script> -->

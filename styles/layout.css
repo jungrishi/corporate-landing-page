@@ -3,7 +3,7 @@
 }
 
 .header{
-    height: 100vh;
+    min-height: 100vh; /*chrome bug*/
     background: url('../images/bg-image1.png') no-repeat;
     background-size: 100% 100%;
     margin: 0 auto;
@@ -32,7 +32,6 @@
 /*body part*/
 .design {
     width: 100%;
-
 }
 
 .design-content {
@@ -114,7 +113,7 @@
 
 .footer {
     width: 100%;
-    min-height: 100vh;
+    /* min-height: 100vh; */
 }
 
 .footer-content {
