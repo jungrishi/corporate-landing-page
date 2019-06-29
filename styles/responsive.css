@@ -1,10 +1,23 @@
+@media (min-width: 480px) {
+    .cofounder-list {
+        width: 76%;
+        margin: 0 auto;
+    }
+}
+
 @media (min-width: 768px){
     .page-wrapper {
         padding: 88px 70px;
     }
 
     h1 {
-        font-size: (2em + 0.1vw);
+        font-size: (1.7em + 0.1vw);
+    }
+
+    h2 {
+        font-size: calc(1.7em + 0.1vw);
+        line-height: calc(1.5em + 0.1vw); 
+        /* margin-bottom: 20px;  */
     }
 
     .play-button {
@@ -25,6 +38,28 @@
         font-size: 1.25em;
         line-height: 75px;
     }
+
+
+
+    .back-image {
+        background: url("../images/Rectangle-21-copy.png");
+        background-size: 67%;
+        background-position: 192% 6%;
+        background-repeat: no-repeat;
+    }
+
+    .design-content {
+        width: 60%;
+        text-align: left;
+    }
+
+    .features {
+        background: url("../images/div3.png") no-repeat;
+        background-repeat: no-repeat;
+        background-size: contain; 
+    }
+
+
 
     .features-list li {
         width: 60%;
