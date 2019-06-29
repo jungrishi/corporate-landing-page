@@ -32,6 +32,7 @@
 .try-now-button {
     position: sticky;
     top: 0;
+    cursor: pointer;
 }
 
 
