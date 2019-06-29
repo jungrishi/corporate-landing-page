@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/responsive.css">
- 
+
 </head>
 <body>
     <div class="main-container">
@@ -19,15 +19,26 @@
                     <h1>There is no other platforms for you as like </h1>
                 <div class="player">
                     <div class="play-button">
-                            <svg 
+                        <a href = "start-button()">
+                            <svg class="play-icon"
                             xmlns="http://www.w3.org/2000/svg"
                             xmlns:xlink="http://www.w3.org/1999/xlink"
                             width="59px" height="59px">
+                            <filter id="colorFilter">
+                                    <feColorMatrix 
+                                    color-interpolation-filters="sRGB"
+                                    type="matrix"
+                                    values="1.00 0   0   0   0
+                                            0   0.43  0   0   0
+                                            0   0   0.43  0   0
+                                            0   0   0   1   0 "/>
+                                </filter>
                             <path fill-rule="evenodd"  fill="rgb(50, 57, 105)"
                             d="M29.500,-0.000 C45.792,-0.000 59.000,13.208 59.000,29.500 C59.000,45.792 45.792,59.000 29.500,59.000 C13.208,59.000 0.000,45.792 0.000,29.500 C0.000,13.208 13.208,-0.000 29.500,-0.000 Z"/>
                             <path fill-rule="evenodd"  fill="rgb(244, 245, 247)"
                             d="M40.000,29.500 L23.000,39.000 L23.000,20.000 L40.000,29.500 Z"/>
                             </svg>
+                        </a>    
                     </div>
                     <div class="try-now">
                         <input type="submit" value="TRY NOW" class="try-now-button">
@@ -182,7 +193,7 @@
         <div class="footer">
             <div class="page-wrapper">
                 <div class="footer-content clearfix">
-                <div class="f-left-wrap">
+                <div class="f-left-wrap clearfix">
                     <div class="address">
                         <h4><a href ="#"><img src="./images/footerLogo.png" alt="startex"> </a></h4>
                         <ul>
@@ -207,8 +218,8 @@
                         </ul>
                     </div>
                 </div>  
-                    <div class="f-right-wrap"> 
-                        <div class="support">
+                    <div class="f-right-wrap clearfix"> 
+                        <div class="support clearfix">
                             <h4>About Us</h4>
                             <ul>
                                 <li><a href="#">About Us</a></li>
