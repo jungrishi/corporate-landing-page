@@ -1,32 +1,40 @@
+body {
+    color: #282828;
+    font-family: 'Exo Medium', sans-serif;
+}
+
 .main-container {
-    min-height: 100vh;
+    width: 100%;
+    height: 100%;
 }
 
 .header{
-    min-height: 100vh; /*chrome bug*/
+    height: 100vh; /*chrome bug*/
     background: url('../images/bg-image1.png') no-repeat;
     background-size: 100% 100%;
+    position: relative;
     margin: 0 auto;
 }
 
 .page-wrapper {
     max-width: 90em;
     margin: 0 auto;
-    padding: 90px 20px;
+    padding: 0px 20px;
 }
 
 .header-content {
+    position: absolute;
     width: 81.250000%;
-    height: auto;
-    margin:  0 auto;
+    top: 23%;
+    left: 10%;
     text-align: center;
+}
+.play-icon {
+    opacity: .7;
 }
 
 .play-icon:hover {
     filter: url(#colorFilter);
-    /* filter: grayscale(100%) sepia(100%)
-    saturate(4)
-    brightness(4); */
 }
 
 .try-now-button {
@@ -35,49 +43,48 @@
     cursor: pointer;
 }
 
-
-
 /*body part*/
 .design {
     width: 100%;
 }
 
 .design-content {
-    font-family: 'Exo Medium', sans-serif;
     width: 100%;
-    color: #282828;
-    text-align: justify;
-    
+    text-align: left;
+    padding: 13.263888% 0%;
 }
 
-.features {
-    font-family: 'Exo Medium', sans-serif;  
+.features {  
     background: #f6f5f3;
-    color: #282828;
     width: 100%;
 }
 
 .features-content {
+    padding: 9.513888% 0%;
     width: 100%;
     text-align: center;
 }
 
 .features-list img{
-    padding-bottom: 15px;
-    max-width: 33px;
+    padding-bottom: 10px;
+    max-width: 43px;
+    height: auto;
 }
 
 .cofounder {
-    font-family: 'Exo Medium', sans-serif;
     width: 100%;
     background: url("../images/cofounder-bg2.png"), url("../images/cofounder-bg1.png");
     background-repeat: no-repeat, no-repeat;
     text-align: center;
     background-size: cover;
+    padding-top: 7.083333%; 
+    padding-bottom: 80px;
 }
 
 .cofounder-list img {
-    max-width: 50px; 
+    max-width: 50px;
+    height: 50px; 
+    stroke: black;
 }
 
 .business-partners {
@@ -85,33 +92,29 @@
     width: 100%;
 }
 
-.business-partners img {
-    max-width: calc(12px + 10vw);
-}
-
 .new-features {
+    padding-top: 7.430555%; 
+    text-align: center;
     width: 100%;
     background: #f6f5f3;
 }
 
-.browser {
-    text-align: center;
-    font-family: 'Exo Medium', sans-serif;
-}
-
 .browser p {
-    padding-bottom: 100px;
+    padding-bottom: 7.430555%;
 }
 
 .sign-up {
+    padding: 6.805555% 0%;
     width: 100%;
     background: url("../images/trynowbg.png") no-repeat;
     background-size: cover; 
+    margin-top: -5px;
 }
 
 .form-wrapper {
     width: 100%;
     margin: 0 auto;
+    text-align: center;
 }
 
 .anamoly {
@@ -121,12 +124,10 @@
 
 .footer {
     width: 100%;
-    /* min-height: 100vh; */
 }
 
 .footer-content {
-    font-family: 'Exo Medium', sans-serif;
-    color: #282828;
     font-size: 14px;
     width: 100%;
+    padding: 5.90277% 0%; 
 }
