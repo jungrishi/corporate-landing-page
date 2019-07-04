@@ -19,6 +19,15 @@
 
     h2 {
         font-size: 25px;
+        color: #282828;
+    }
+
+    .ellipsis.width1 {
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        width: 318px;
     }
 
     h3 {
@@ -174,6 +183,10 @@
         line-height: 50px;
     }
 
+    .ellipsis.width1 {
+        width: 509px;
+    }
+
     h3 {
         font-size: 22px;
     }
@@ -265,7 +278,7 @@
     }
 
     .cofounder-list li:not(:last-child) {
-        margin-right: 60px;
+        margin-right: 29px;
     }
 
     .business-partners {
