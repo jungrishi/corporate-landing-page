@@ -7,7 +7,7 @@ h1 {
 h2 {
     font-size: 18px;
     margin-bottom: 20px; 
-    line-clamp: 2;
+    -webkit-line-clamp: 2;
 }
 
 h3 {
