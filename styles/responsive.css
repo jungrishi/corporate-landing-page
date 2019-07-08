@@ -22,12 +22,34 @@
         color: #282828;
     }
 
-    .ellipsis.width1 {
+    .ellipsis {
         overflow: hidden;
         display: -webkit-box;
         -webkit-line-clamp: 2;
         -webkit-box-orient: vertical;
+        color: #ff6d6d;         
+    }
+
+    .ellipsis.width1{
         width: 318px;
+    }
+
+    .ellipsis.width2 {
+        width: 265px;
+    }
+
+    .ellipsis-n {
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        color:#ffffff;
+        padding-bottom: 6%;
+        margin: auto;
+        width: 410px;
+    }
+
+    .color-me {
+        color: #282828;
     }
 
     h3 {
@@ -186,6 +208,16 @@
     .ellipsis.width1 {
         width: 509px;
     }
+
+    .ellipsis.width2 {
+        width: 414px;
+    }
+
+    .ellipsis-n {
+        width: 610px;
+
+    }
+
 
     h3 {
         font-size: 22px;

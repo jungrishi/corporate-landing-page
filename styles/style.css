@@ -173,7 +173,7 @@ h4 {
 }
 
 .address img{
-    width: calc(70px + 3vw);
+    max-width: 70px;
 }
 
 .address {
