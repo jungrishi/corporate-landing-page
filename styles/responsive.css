@@ -18,8 +18,11 @@
     }
 
     h2 {
+        letter-spacing: 1.6px;
         font-size: 25px;
-        color: #282828;
+        /* font-weight: 599; */
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
     }
 
     .ellipsis {
@@ -31,21 +34,21 @@
     }
 
     .ellipsis.width1{
-        width: 318px;
+        width: 360px;
+
     }
 
     .ellipsis.width2 {
-        width: 265px;
+        width: 280px;
     }
 
     .ellipsis-n {
         white-space: nowrap;
         text-overflow: ellipsis;
         overflow: hidden;
-        color:#ffffff;
         padding-bottom: 6.805555%;
         margin: auto;
-        width: 410px;
+        width: 460px;
     }
 
     .color-me {
@@ -53,14 +56,15 @@
     }
 
     h3 {
-        font-size: 20px;
-        font-weight: 400;
+        font-size: 18px;
+        letter-spacing: 0.9px;
         padding-bottom: 10px; 
     }
 
     p {
         font-size: 16px;
         line-height: 26px;
+        letter-spacing: 0.64px;
     }
 
     .play-button {
@@ -73,12 +77,13 @@
 
     .title {
         font-size: 16px; 
-        line-height: 50px;
+        line-height: 30px;
+        letter-spacing: 3.2px;
     }
 
     .back-image {
         background: rgb(255,255,255);
-        background: linear-gradient(90deg, rgba(255,255,255,1) 59%, rgba(236,236,236,1) 59%);
+        background: linear-gradient(90deg, rgba(255,255,255,1) 63%, rgba(236,236,236,1) 63%);
     }
 
     .back-image .design-content {
@@ -91,23 +96,27 @@
         background-size: cover; 
     }
 
+    .features-list {
+        padding-top: 22px;
+    }
+
     .features-list li {
         width: 30%;
         margin: 0 auto;
         float: left;        
 }
     .features-list li:not(:last-child){
-        margin-right: 30px;
+        margin-right: 29px;
     }
 
     .design-clear img {
-        width: 45%;
+        width: 37%;
         float: left;
-        vertical-align: top;
     }
 
     .res-text{
-        width: 50%;
+        vertical-align: middle;
+        width: 64%;
         float: right;
     }
     
@@ -188,12 +197,21 @@
         display: block;
     }
 
+    .notify {
+        margin-top: 4px;
+        width: 265px;
+    }
+
     .input-footer {
         margin-top: 20px;
     }
 
     .footer-logo {
         width: 65%;
+    }
+
+    h4 {
+        font-size: 18px;
     }
 
 }
@@ -205,28 +223,31 @@
     }
 
     h1 {
-        font-size: 60px;
+        font-size: 50px;
         width: 80%;
     }
 
     h2 {
-        font-size: 40px;
+        font-size: 30px;
         line-height: 50px;
     }
 
+    p {
+        letter-spacing: 1.3px;
+    }
+
     .ellipsis.width1 {
-        width: 509px;
+        width: 425px;
     }
 
     .ellipsis.width2 {
-        width: 414px;
+        width: 345px;
     }
 
     .ellipsis-n {
-        width: 610px;
+        width: 550px;
 
     }
-
 
     h3 {
         font-size: 22px;
@@ -238,10 +259,12 @@
 
     .back-image {
         padding: 192px 0px 130px;
-        background-image: url("../images/Rectangle-21-copy.png");
-        background-size: 237%;
-        background-position: -46% 30%; 
+        background: linear-gradient(90deg, rgba(255,255,255,1) 65%, rgba(236,236,236,1) 65%);
         background-repeat: no-repeat;
+    }
+
+    .back-image .design-content {
+        width: 63%; 
     }
 
     .design-content {
@@ -263,7 +286,7 @@
     }
 
     .features-list {
-        padding-top: 90px;
+        padding-top: 55px;
     }
 
     .features-list li {
@@ -272,7 +295,7 @@
     }
 
     .features-list li:not(:last-child) {
-        margin-right: 30px;
+        margin-right: 29px;
     }
 
     .xtra-class {
@@ -282,6 +305,10 @@
 
     .design-clear {
         width: 100%;
+    }
+
+    .design-clear img {
+        width: 44%;
     }
 
     .rect {
@@ -296,7 +323,7 @@
     }
 
     .res-text {
-        width: 40%;
+        width: 52%;
         float: right;
     }
 
@@ -331,8 +358,8 @@
     }
 
     .business-partners img {
-        max-width: 107px;
-        margin-right: 80px;
+        max-width: 86px;
+        margin-right: 10%;
     }
 
     .business-partners img:last-child {
@@ -408,18 +435,18 @@
     }
 
     .f-right-wrap {
-        width: 47%;
+        width: 50%;
         float: right;
     }
 
     .f-left-wrap .address {
         float: left;
-        width: 55.299154%;
-        margin-right: 30px;    
+        width: 61.299154%;
+        margin-right: 10px;    
     }
 
     .f-left-wrap .support {
-        width: 36.299154%;
+        width: 32.299154%;
         float: right;
     }
 
@@ -433,6 +460,11 @@
         float: right;
     }
 
+    .notify {
+        margin-top: 4px;
+        width: 265px;
+    }
+
     .notify input[type="Email"] {
         width: 65%;
     }
@@ -444,4 +476,56 @@
         width: 65%;
     }
 
+    h4 {
+        font-size: 20px;
+    }
+
+}
+
+
+@media (min-width: 1440px) {
+    h1 {
+        font-size: 60px;
+    }
+
+    .ellipsis.width1 {
+        width: 552px;
+    }
+
+    .ellipsis.width2 {
+        width: 460px;
+    }
+
+    .ellipsis-n {
+        width: 700px;
+    }
+
+    h2 {
+        font-size: 39.98px; 
+    }
+
+    .features-list {
+        padding-top: 90px;
+    }
+
+    h3 {
+        font-size: 22px;
+        line-height: 49.97px;
+    }
+
+    p {
+        letter-spacing: 0.64px;
+    }
+
+    .title {
+        line-height: 49.97px;
+    }
+
+    .back-image .design-content {
+        width: 70%;
+    }
+
+    .address li {
+        line-height: 29px;
+    }
 }

@@ -13,9 +13,14 @@ h3 {
     font-size: 16px;
 }
 
+.ellipsis-n {
+    color:#ffffff;
+}
+
 p {
     font-size: 14px;
-    line-height: 20px; 
+    line-height: 20px;
+    letter-spacing: 0.56px; 
     opacity: 0.66;
 }
 
@@ -55,6 +60,7 @@ p {
 .title {
     font-size: 14px;
     line-height: 30px;
+    text-transform: uppercase;
     color: #ff6d6d;
 }
 
@@ -100,8 +106,8 @@ p {
 }
 
 .business-partners img {
-    max-width: 50px;
-    margin-right: 3px;
+    max-width: 45px;
+    margin-right: 3%;
     display: inline-block;
     vertical-align: middle;
 }
@@ -163,13 +169,13 @@ p {
 
 /*footer*/
 h4 {
-    font-size: 22px;
+    font-size: 16px;
     line-height: 50px;
-    color: #2c2f49;
+    color: #282828;
 }
 
 .address li {
-    line-height: 26px;
+    line-height: 30px;
 }
 
 .address img{
@@ -239,7 +245,7 @@ h4 {
 }
 
 .footer-logo img::before {
-
+    
 }
 
 .footer-logo img {
