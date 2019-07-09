@@ -31,7 +31,8 @@ body {
     text-align: center;
 }
 .play-icon {
-    opacity: .7;
+    opacity: 0.7;
+    vertical-align: middle;
 }
 
 .play-icon:hover {

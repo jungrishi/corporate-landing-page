@@ -1,9 +1,5 @@
 .back-image img {
     display: none;
-    max-width: 100px;
-    position: absolute;
-    bottom: 0px;
-    right: 0px;
 }
 
 .show-more-state {
@@ -13,7 +9,7 @@
 h1 {
     font-family: 'Exo Thin', sans-serif;
     font-size: 22px;
-    margin-bottom: 44px;
+    padding: 22px 0px;
 }
 
 h2 {
@@ -40,15 +36,9 @@ p {
     opacity: 0.66;
 }
 
-.play-button{
-    position: relative;
-    max-width: 60px;
-    margin: 0 auto;
-}
-
 .try-now{
     font-family: 'Exo',sans-serif;
-    margin-top: 40px;
+    padding-top: 40px;
     width: 100%;    
 }
 
@@ -173,7 +163,6 @@ h4 {
 
 .footer-content ul li {
     word-break: break-all;
-    padding: 5px 0px;
 }
 
 .address {
@@ -182,7 +171,7 @@ h4 {
 }
 
 .address li {
-    padding-bottom: 12px;
+    padding: 5px 0px;
 }
 
 .address img{
@@ -201,7 +190,7 @@ h4 {
 }
 
 .support li  {
-    padding-bottom: 12px;
+    padding: 5px 0px;
 }
 
 .input-footer {
@@ -210,7 +199,7 @@ h4 {
 
 .notify {
     margin-top: 5px;
-    width: 280px;
+    width: 100%;
 }
 
 .input-footer input[type="Email"] {
@@ -245,7 +234,6 @@ h4 {
 
 .footer-logo {
     text-align: center;
-    vertical-align: middle;
     padding-top: 20px;
 }
 
@@ -254,11 +242,14 @@ h4 {
 }
 
 .footer-logo a {
+    display: inline-block;
     cursor: pointer;
+    width: 100%;
 }
 
-.footer-logo a:not(last-child) {
-    margin-right: 25px;
+.footer-logo a svg {
+    display: inline-block;
+    padding: 5px 10px;
 }
 
 

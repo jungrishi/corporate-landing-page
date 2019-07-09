@@ -55,7 +55,7 @@
         cursor: pointer;
         display: inline-block;
         padding: 0 10px;
-        color: black;
+        color: burlywood;
         font-size: 14px;
         line-height: 30px;
         border: 1px solid black;
@@ -72,8 +72,11 @@
 
     .ellipsis.width1{
         width: 360px;
-
     }
+
+    /* .width1::before {
+        content: ".";
+    } */
 
     .ellipsis.width2 {
         width: 290px;
@@ -95,17 +98,12 @@
     h3 {
         font-size: 18px;
         letter-spacing: 0.9px;
-        padding-bottom: 10px; 
     }
 
     p {
         font-size: 16px;
         line-height: 26px;
         letter-spacing: 0.64px;
-    }
-
-    .play-button {
-        max-width: 76px;
     }
 
     .card-detail {
@@ -121,6 +119,7 @@
     .back-image {
         background: rgb(255,255,255);
         background: linear-gradient(90deg, rgba(255,255,255,1) 63%, rgba(236,236,236,1) 63%);
+        position: relative;
     }
 
     .back-image .design-content {
@@ -206,8 +205,12 @@
         width: 29%;
         height: 40px;
         padding: 0 10px;
-        margin-right: 20px; 
         margin-top: 0px; 
+        text-align: left;
+    }
+
+    .form-content input[type="text Email"] {
+        margin-right: 20px;  
     }
 
     .form-content input[type="submit"] {
@@ -245,16 +248,15 @@
 
     .notify {
         margin-top: 4px;
-        width: 265px;
+        width: 100%;
     }
 
     .input-footer {
-        margin-top: 20px;
+        margin-top: 30px;
     }
 
-    .footer-logo {
-        width: 65%;
-        margin: 0 auto;
+    .input-footer input[type="Email"] {
+        width: 84%;
     }
 
     h4 {
@@ -305,12 +307,18 @@
     }
 
     .back-image {
+        position: relative;
         padding: 192px 0px 130px;
         background-image:linear-gradient(90deg, rgba(255,255,255,1) 65%, rgba(236,236,236,1) 65%);
     }
 
     .back-image img {
-        width: 50%;
+        display: block;
+        position: absolute;
+        right: -7.52%;
+        bottom: -15%;
+        max-width: 50%;
+        transform: scale(0.7)
     }
 
     .back-image .design-content {
@@ -362,7 +370,7 @@
     }
 
     .rect {
-        background-image: url("../images/Rectangle-21-copy.png");
+        background-image: url("../images/Rectangle.png");
         background-size: 121%;
         background-position: 307% 7%;
         background-repeat: no-repeat;
@@ -374,7 +382,6 @@
 
     .res-text {
         width: 52%;
-        float: right;
     }
 
     .cofounder {
@@ -404,7 +411,7 @@
     }
 
     .business-partners {
-        width: 100%;
+        width: 80%;
     }
 
     .business-partners a img {
@@ -472,14 +479,17 @@
     } 
 
     .footer {
-        padding: 91px 0px;
-        background: url(../images/Rectangle-21-copy.png) no-repeat;
-        background-size: 70%;
-        background-position: 253% 121%;
+        background: url(../images/Rectangle.png) no-repeat;
+        background-size: 72.3%;
+        background-position: 268% 83%;
     }
 
     .address img{
-        width: calc(50px + 3vw);
+        max-width: 65px;
+    }
+
+    .footer-content {
+        width: 90%;
     }
 
     .f-left-wrap {
@@ -495,40 +505,41 @@
 
     .f-left-wrap .address {
         float: left;
-        width: 61.299154%;
+        width: 68.299154%;
         margin-right: 10px;    
     }
 
     .f-left-wrap .support {
-        width: 32.299154%;
+        width: 27.299154%;
         float: right;
     }
 
     .f-right-wrap .support {
+        margin-right: 10px;
         width: 30.299154%;
         float: left;
     }
 
     .f-right-wrap .input-footer {
-        width: 67.299154%;
+        width: 65.299154%;
         float: right;
+    }
+
+    .support li a {
+        display: inline-block;
+        width: 100%;
     }
 
     .notify {
         margin-top: 4px;
-        width: 265px;
     }
 
     .notify input[type="Email"] {
-        width: 65%;
+        width: 75%;
     }
 
     .input-footer {
         margin-top: 0px;
-    }
-
-    .footer-logo {
-        width: 65%;
     }
 
     h4 {
@@ -538,7 +549,7 @@
 }
 
 
-@media (min-width: 1440px) {
+/* @media (min-width: 1440px) {
     h1 {
         font-size: 60px;
     }
@@ -583,4 +594,4 @@
     .address li {
         line-height: 29px;
     }
-}
+} */
