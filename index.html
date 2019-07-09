@@ -14,7 +14,6 @@
 <body>
     <div class="main-container">
         <div class="header" id="v-player">
-            <div class="page-wrapper">
                 <div class="header-content">
                     <h1>There is no other platforms for you as like </h1>
                 <div class="player" id="a-player">
@@ -45,9 +44,9 @@
                     </div>
                 </div>
                 </div>
-            </div>
         </div>
         <div class="back-image">
+            <img src="./images/Rectangle-21-copy.png" alt="skcn">
         <div class="design">
             <div class="page-wrapper">
                 <div class="design-content xtra-class">
@@ -75,9 +74,13 @@
                     <ul class="features-list clearfix">
                         <li><img src="./images/feature1.png" alt="feature 1">
                         <h3>Some awesome features</h3>
-                        <p>
+                        <input type="checkbox" class="show-more-state" id="post-1" />
+                        <p class="read-more-wrap">
                             Donec sed odio dui. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a pharetra augue.
-                        </p></li>
+                            <span class="read-more-target">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias qui ex pariatur dignissimos hic doloribus delectus reprehenderit voluptatem veniam, distinctio dolores, temporibus quos, aspernatur at ipsum corrupti exercitationem ea sint.</span>
+                        </p>
+                        <label for="post-1" class="read-more-trigger"></label>
+                        </li>
                         <li><img src="./images/feature2.png" alt="feature 2">
                         <h3>Some awesome features</h3>
                         <p>
@@ -85,9 +88,13 @@
                         </p></li>
                         <li><img src="./images/feature3.png" alt="feature 3">
                         <h3>Some awesome features</h3>
-                        <p>
+                        <input type="checkbox" class="show-more-state" id="post-2" />
+                        <p class="read-more-wrap">
                             Donec sed odio dui. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a pharetra augue.
-                        </p></li>
+                            <span class="read-more-target">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi amet quo ducimus deserunt iusto voluptates, temporibus veniam dicta ut eaque provident impedit eum quis ratione officia aliquam voluptatibus unde! Est.</span>
+                        </p>
+                        <label for="post-2" class="read-more-trigger"></label>
+                        </li>
                     </ul>
                 </div>    
             </div>
@@ -116,43 +123,46 @@
                     <ul class="clearfix">
                         <li>
                             <img src="./images/cofounder.png" alt="cofounder">      
-                            <div class="cofounder-name">Jonathan Doe</div>
-                            <div class="post">
+                            <span class="cofounder-name"><a href = "#" title = "name1">Jonathan Doe</a></span>
+                            <span class="post">
                                 Co Founder
-                            </div>         
+                            </span>         
                             <p>
                                 “Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id gravida at eget metus. Etiasem malesuada magn”                           
                             </p>
                         </li>
                         <li>
                             <img src="./images/cofounder.png" alt="cofunder">
-                            <div class="cofounder-name">Jonathan Doe</div>
-                            <div class="post">
+                            <span class="cofounder-name"><a href = "#" title = "name1">Jonathan Doe</a></span>
+                            <span class="post">
                                 Co Founder
-                            </div>         
+                            </span>         
                             <p>
                                 “Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id gravida at eget metus. Etiasem malesuada magn”                           
                             </p>
                         </li>
                         <li>
                             <img src="./images/cofounder.png" alt="cofounder">
-                            <div class="cofounder-name">Jonathan Doe</div>
-                            <div class="post">
+                            <span class="cofounder-name"><a href = "#" title = "name1">Jose Coe</a></span>
+                            <span class="post">
                                 Co Founder
-                            </div>         
-                            <p>
-                                “Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id gravida at eget metus. Etiasem malesuada magn”                           
-                            </p>
+                            </span>         
+                            <input type="checkbox" class="show-more-state" id="post-3" />
+                                <p class="read-more-wrap">
+                                    Donec sed odio dui. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a pharetra augue.
+                                    <span class="read-more-target">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias qui ex pariatur dignissimos hic doloribus delectus reprehenderit voluptatem veniam, distinctio dolores, temporibus quos, aspernatur at ipsum corrupti exercitationem ea sint.</span>
+                                </p>
+                            <label for="post-3" class="read-more-trigger"></label>
                         </li>
                     </ul>
                 </div>
-                <div class="business-partners" id="partners">
-                    <img src="./images/partner-logo-1.png" alt="partner1">
-                    <img src="./images/partner-logo-4.png" alt="paterner2">
-                    <img src="./images/partner-logo-5.png" alt="partner3">
-                    <img src="./images/partner-logo-8.png" alt="partner4">
-                    <img src="./images/partner-logo-7.png" alt="partner5">
-                </div>
+                <ul class="business-partners clearfix" id="partners">
+                    <li><a href="#"><img src="./images/partner-logo-1.png" alt="partner1"></a></li>
+                    <li><a href="#"><img src="./images/partner-logo-4.png" alt="paterner2"></a></li>
+                    <li><a href="#"><img src="./images/partner-logo-5.png" alt="partner3"></a></li>
+                    <li><a href="#"><img src="./images/partner-logo-8.png" alt="partner4"></a></li>
+                    <li><a href="#"><img src="./images/partner-logo-7.png" alt="partner5"></a></li>
+                </ul>
             </div>
         </div>
         <div class="new-features">
@@ -171,9 +181,11 @@
                     <span class="title">NEW FEATURES</span>
                     <h2 class="ellipsis-n width3 clearfix">
                         Over 1000 designers are using it Hurry!</h2>
-                    <div class="anamoly clearfix">      
-                        <span>30 day Trial Free For All</span> 
+                    <div class="clearfix">      
+                        <span class = "anamoly">
                         <img src="./images/ARROW.png" alt="arrow.png">
+                        <span>30 day Trial Free For All</span> 
+                        </span>
                     </div>
                     <div class="form-content">               
                     <form>            
@@ -192,12 +204,12 @@
                 <div class="footer-content clearfix">
                 <div class="f-left-wrap clearfix">
                     <div class="address">
-                        <h4><a href ="#" title = "link"><img src="./images/footerLogo.png" alt="startex"> </a></h4>
+                        <a href ="#" title = "link"><img src="./images/footerLogo.png" alt="startex"> </a>
                         <ul>
                             <li>Aenean lacinia bibendum nulla sed </li>
                             <li>consectetur. Aenean eu leo quam.</li>
                             <li>USA &  CAN: 1-888-123-4567</li>
-                            <li> Address: 34 Brokel Rd. NY.</li>
+                            <li>Address: 34 Brokel Rd. NY.</li>
                         </ul>
                     </div>
                     <div class="support">
@@ -231,24 +243,33 @@
                             <input type="Email" placeholder="Email" class="prop">
                             <button class="button"></button>
                             </div>
-                            <div class="footer-logo">
+                            <ul class="footer-logo">
+                                <li>
                                 <a href = "#" title="dribble"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="21" viewBox="0 0 20 21">
                                     <image id="dribbble_S" width="20" height="21" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAVCAYAAABG1c6oAAAEyklEQVQ4jWVUa4hVVRhd397n3HPOfc3M9TpOepMYUSsfUBKlxGCUpaiJmoQolkHgj5AeJFhZJoUFkUZpoJRlmIL9GCikrLRsVNBixhdMOaONOqlzZ3Qe917vOWfv/cW5Pkc/OHBgs9de37e+tejY3M/gVUtUDbNhFAAwQtIolzR6S2ZIXdZdZRHlmEGekOeaB7oOtqr84YXehHbbiWHb3/uwq+0gNk99A02t5yEwqBgM1AkhV8WVHvVze76nEIT1lhTzhaB5ZZjlE1O12xcOGdfch/JqEsjwYIDbATEFgn61SK6RCXft1PoapAWWAHSWGSAACga+MSnXs97xPLspbXv3hVpXzm4HnAwhfiCi+znqz7UXTBiRnHeyq7e345z/lhOjQS/HhIVTvRf7Xv7xy85sPAXDV7kKHTLYcJwkbQCh5sYNwygo85Gv4alQbSXwHwZA3HYQAUCpLW+2/TK5LpMd/unMFzaeutSd9AOGfPXhp+Ek5Ou2KxbxbQMRJGoy8YTn2Ga3ReaMF3OXHL/YcXxfe8uKsdncmgL0mPemzNvpydjMQjk8H7PFIbqwclMtQbZCoyYaBBFV5hG1QAQwE3TA48HlE5l44qnGf9v27u08HWxomPFiEPIHJaiMMgaWRLsGT6KO1zbOdy33u0jhisrMV5jpNAFHwOJAd75wVKXClrtiyX5ELTiJ6Yg5K1HubSAhcb2riETBV9MsDulPFuoxw+jJuM6Frcf257c3H8Se595FPrgMO8EohsFDZKNTC/pPcnmZHQYNgbAqFCpdMYMJcKV41LId2QsjjhBgG5LJbLwqN35YbmjAaqxhfqQ6nWhI6VRuqMe7fKPn9LNYx1qMVmFYFAQFUIyJ4oJomJSopfMrNm8ULJ5ggmPYVCdibjoRc9BV7INFosIg5Yq2Tw70b6rOyHUP1PgqQTF3aNwpa3N1OZkEJFH9FWM8SwA5CIyOZiBJoKyCyhf9K+ZuqXltoHhLLikut2qG6ezGmOrUqHsy6ZcKgYo0uyINOgHT4hs+YBnmZkGYfWP9DFDlEYThPXu61dJR0pxJsuUsmBB/eyCkSe35zJyQqU4zL6NrYly1h0BC0PNW4AdNXtyrqKXZIJtIoK1H7MgX8gsfzLrwfbPEkuL93jLlLBiMrEqNDpTYXwrUUSlp4nWVpSB0F/U/YmSNc6jGoVbNjKTtIl860zh7W+PCL/6i9LBsbKfrOV+DKBetlI5mCrH0SsEv+wEfIHHTjtqY3+Mxc0TM3dHTt/7gwIeZlIWU47U0njj2bDHYW736yZG7+wbMM4OzCJDgaWkPsCxqMvqafyEiwI9TLpcIWIkZo9Ni19Lh3zR3dH0upNXkWeb7+mztrPyAX2llUBlcYtbjonyRJE5aFiVLvvpqoBwuFaIyTgu1ScsUuoqLi6WwKVdVvf7udN2s7kL5TrCIjaSMH5qG3mLxAglTNFq3qFAtVwbQ+pb4Msw8PFVjaaMyA2E5CoY7wK4BQofh48WiQZ+PV0KtphMwEL0def/GrYiLrwMVKLXEMC1i5t8ic93KURDBYgnbtnpSdgx9JbNdMS5GQNfLuvX1KGeitAHwrQQ1Hi6qsaM8ujcNMUKQUN1+/9mf+jtOLq6e0E52GeFVN98sAP8Dc2dHqQVJYPEAAAAASUVORK5CYII="/>
                                 </svg>
                                 </a>
+                                </li>
+                                <li>
                                 <a href = "#" title="twitter"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="19" height="17" viewBox="0 0 19 17">
                                     <image id="twitter_S" width="19" height="17" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAARCAYAAAA/mJfHAAAC60lEQVQ4jZWTX4iVRRjGn/ed+c53zvF0zi5tq2dZV0sppRXbMAisbcO0rfWqIgxvoqAoKCjooouy26ibSIIo8yqFuopSsC7qIpGNhUQQl3XR0AuzI+2x82f3+2bmfeM7x73qU/IZBoZh+M07z/MOvTK3hEp9ANc+/xDF+x/B4OM7sXjiB8TlO1CfeAxpJ0VPIoB3eziOnyPmUee6c39c+P3LDfXxSyY2iOJSyVprn4TiBG4iMgYqAmI+YEqlDwBFNuPCmqfu2zK5P+22PwaTC16PcFyIvyKDw7LcgXoH0A0oESBA2mxCkmSXifgGqC9Vgaq/JyqXP7NR/G7wsoEV2tKWf7G296Wf403jO3UFEO8gwYMUcK021LkZZs4vXTUDL4DQZCoWjmsiKI5tnCoMDv2kTr+N1wzsioqVISFFPFiDiW2iovmsbKh+QoQr9PKhY+trk9Nn1IWB1QPEDBU9FyT8QqKzbGgf2ExnVeTgvCqmQDhpKSw/JMBvAPas2pUZDmCrYd5Khl7rMXJBvasbIG5kK649/ewM0vAo3eSo9kn5GKLsBYshTS9ImoLPnDr+UWS42UvvNlUdtZj//si5gxMV/+mDFfDSn+fn/T+NKbA9qqqt28G5VBHVBr8b3rYDw+M7QM//OIeRdffWEZX2i8gbhmjsf5EI8J5+pYKdLFb7PtjR+nasJB22mj4TVcpj6sJqALcA9bxqS3fpLWkFdX/3t822F14FB9e6dPnyN7rS9XGxNELGxgAKt4KFNH3dd64fI0mBEIDgwd3WVfx1fhaVobWtxhcH3r9+cX43jF3Myy9LL5vey3sqeogNA2yA7Hcww4pP0F5qYOLuddXK9L7dpfWb30QID/wn26yaEJqSJm9rFB/OS99WhjduL1fveidZDg9Xn5jZJG2Biu873GNw1q8rPviD6t3XIU1O20Ixt/NsaWDtFcM46jqd08YXtyj0TigIpGLYLrQbV2eDuLOV4ZGFANeD5wrAvze6XhRVQM1kAAAAAElFTkSuQmCC"/>
                                 </svg>
                                 </a>
+                                </li>
+                                <li>
                                 <a href = "#" title="facebook"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="11" height="21" viewBox="0 0 11 21">
                                     <image id="facebook_S" width="11" height="21" 
                                     xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAVCAYAAACQcBTNAAABsklEQVQokb2SvYpUQRCFz6nuvjOOrIMgorjBiiiaqBuZbrgPYGQgGPgQYq5vICZmgrH4Bpv7k5sYGIiKi+Ps7L39UyV9d2aYGUSMPEFDd39VfaqreP/xG1SZAYMgSLG97Xyz71y4TtigXgEImton3io1h9Xs3qnR1gszHfaH4HKdQV760XAIgiiadwx4BtgcXFcN8O8+fkBMEdvnt/evXNwZd6k9eQmAglOBfVKzANih7+Ixjrsj5BLPUbjMZmbfLOe75uS9ksylzPyda7cQdQIvA3Yxzq0SUsoXS+2BcgB4h19thFfFSPw4Eba1KLZWa2SjTXPBHGdiGsxs6unD0+DcHsFL1eVCFLkcpDlQs0zSnz3dPPR07oYANw22+QENgKuOrJGYTSbJAxyAy6o2/ot9iso3YfjdM7avivi3FNkTx90V/tC0vEbWGKGT0ZnxV88YnyfpwCCPGjfeBcpJRs2fS9c9EHVIyEgWIYUFGVMYNKxZMIqpOYj1nknCR+l6rwTdZodJBIMWV50T8KsD8yf1I1ejsIT/rkXN8i/wQv8H3vRf272mVeAIwM+V/Y81EsBvuma+LTl19EsAAAAASUVORK5CYII="/>
-                                </svg></a>                                
+                                </svg>
+                                </a>
+                                </li>
+                                <li>                                
                                 <a href = "#" title="google+"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="17" viewBox="0 0 20 17">
                                     <image id="googleplus_S" width="20" height="17"fill="blue" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAYAAADdRIy+AAADv0lEQVQ4jXVUTWhcVRT+zrn3vXkvM5mZpENIf7RUqa1CjAsR0QqCFqst4g8IpQiiRUQXKrpQFyJuXEj9gYgIFhdd+rOoLW6szcJKURG1YGpaDYklSdNoZiYzk3n378ibDhha/C6XCwfOued+3/kuzTyxBxABaQ3FCq3VJopDZSinQCQQkVgRpxqqbRGcEYuBQgLj7F0EPKNZP6uYG9PzU/jm7wQafYgARLg9SQo3KtBNrGiTiKxo4ot1051SkT2edTI3u7yIsa07UCwUNzvn74uULvw2P42V1gpidS0Y/WIgPDk0kL62eXjYUaDfhWUPa/2cVqoWpdmpV7//Ye349DSUGPw6O4XV7qpRzJ2p+XPmYmMJsY4RBOBAgIr1bSODA4cPHDv10WNHvz2SKPWxtX4fiWCwGN/53V/NhU9/abATPVwtFmtrNqvWO61qoKBWOvXRNEqrRFTTTGWaObgXkdZvpYX4lZ+mL2zN1txclUvoZB7bb6j8PFRNxy+stMfbXfPnxsF0UjFtCiKZYlVm5orzdgmAA6Cc0FdaM4PBw84BN49u2B6cm6t3A6RBIOYp48L4SBIZUmgJqTfBXIbIagDuFpHHY1KvA9QAEMWMWZ15h4jppKboaZdEb7S6dKI2GqNUMzmx1wXrTxBw1oJAwR9VufI58YocgR4JgiOQkOWhIATmRgZZan3uu933Watdaay+cNbfz6LeJsJsINkvfeUoPyknnXIRyxCUwFzpxfrQ7AOscZaNecETH4447CbWHyqirZkxWxTzpY73MNaimmoIUz6bgKADkQWIBKwDR6MDqJcslrMmYtJnROQdgZy73Aw9lGfmqx0Cms7BOI/MunyfdM497J2re+fgve9dpIkIPngEgEppvL9t/EYJ8g8xEEfRBELYRt6/TCB0jOk9PdEaQaQJoIkrwNYa1AaHHx2pbDjdybIxEJaIeCIE+4BImFFKvwSi5/tSoGUMut7n3V9ZqweaObh7V6k0NGmWVyes0ItxJRHKKSILMdlO1sUfmfm8iLslLyJ9W1kfIF7A6+oSK+gkGjzgvSgv4QOltOTuQOjNIFzmzmotn3Wtu7XR7IJVz6kIQZAWFAYKCpL7bR20iLTZC3S1uBci7+WG7PVAEdbaFuUKbfnjUuuTyTOLKCWX/5J25nDHzhGMXVNBp5ub5D9o590hZrqXhN6FYBsgxwAsQsJoaaj6IJhPM+hQEikUItXL9EGgeuNzNYeamBbEmXsAfkq03keg60GYYcjcebfy5Q6pff1/AlwFAP8CoqHnb9vMlOQAAAAASUVORK5CYII="/>
                                 </svg>
                                 </a>
-                            </div>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -256,6 +277,5 @@
             </div>
         </div>
     </div>
-    <script src="./js/script.js"></script>
 </body>
 </html>

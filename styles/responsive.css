@@ -57,7 +57,7 @@
         padding: 0 10px;
         color: black;
         font-size: 14px;
-        line-height: 20px;
+        line-height: 30px;
         border: 1px solid black;
         border-radius: 5px;
     }
@@ -184,16 +184,12 @@
         padding-bottom: 5px; 
     }
 
-    .business-partners img {
-        max-width: 70px;
-    }
-
-    .business-partners a:not(last-child) {
-        margin-right: 50px;
-    }
-
     .business-partners {
-        width: 100%;
+        width: 80%;
+    }
+
+    .business-partners a img {
+        max-width: 70px;
     }
 
     .sign-up {
@@ -202,12 +198,6 @@
     
     .form {
         margin-top: 20px;
-    }
-
-    .form-content input[type="submit"] {
-        width: 145px;
-        line-height: 38px;
-        padding: 0 15px;
     }
 
     .form-content input:not(:last-child){
@@ -220,19 +210,25 @@
         margin-top: 0px; 
     }
 
+    .form-content input[type="submit"] {
+        width: 145px;
+        line-height: 38px;
+        padding: 0 15px;
+    }
+
     .condition {
         font-size: 16px;
     }
 
     .f-left-wrap {
         float: left;
-        width: 50%;
+        width: 46%;
+        margin-right: 20px;
     }    
 
     .f-right-wrap {
         float: right;
         width: 50%;
-
     }
 
     .f-left-wrap .support {
@@ -412,6 +408,7 @@
     }
 
     .business-partners a img {
+        display: inline-block;
         max-width: 86px;        
     }
 
