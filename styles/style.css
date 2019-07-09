@@ -241,19 +241,22 @@ h4 {
 }
 
 .footer-logo {
-    text-align: center;
+    vertical-align: middle;
+    padding-top: 20px;
 }
 
-.footer-logo img::before {
-    
+.footer-logo a {
+    cursor: pointer;
 }
 
-.footer-logo img {
-    max-width: 10px;
-    display: inline-block;
-    padding-right: 30px;
-    margin-top: 20px;
-    vertical-align: center;
+.footer-logo svg {
+    fill-opacity: 1; 
+} 
+
+.footer-logo a:not(last-child) {
+    margin-right: 25px;
 }
+
+
 
 
