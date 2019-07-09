@@ -43,7 +43,7 @@
         text-overflow: ellipsis;
         overflow: hidden;
         color:#ffffff;
-        padding-bottom: 6%;
+        padding-bottom: 6.805555%;
         margin: auto;
         width: 410px;
     }
@@ -55,6 +55,7 @@
     h3 {
         font-size: 20px;
         font-weight: 400;
+        padding-bottom: 10px; 
     }
 
     p {
@@ -109,6 +110,10 @@
         width: 50%;
         float: right;
     }
+    
+    .post {
+        padding-bottom: 15px;
+    }
 
     .cofounder-list {
         width: 100%;
@@ -122,6 +127,10 @@
         width: 30%;
         margin: 0 auto;
         float: left;
+    }
+
+    .cofounder-list img {
+        padding-bottom: 5px; 
     }
 
     .business-partners img {
@@ -297,6 +306,10 @@
 
     .cofounder-name {
         font-size: 22px;
+    }
+
+    .post {
+        padding-bottom: 20px;
     }
 
     .cofounder-list img {
