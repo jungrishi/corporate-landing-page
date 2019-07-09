@@ -25,6 +25,43 @@
         -moz-osx-font-smoothing: grayscale;
     }
 
+    .show-more-state {
+        display: none;
+        
+    }
+
+    .read-more-target {
+        opacity: 0;
+        max-height: 0;
+        font-size: 0;
+    }
+
+    .show-more-state:checked ~ .read-more-wrap .read-more-target{
+        opacity: 1;
+        font-size: inherit;
+        max-height: 999em;
+        /* transition: .1s all; */
+    }
+
+    .show-more-state ~ .read-more-trigger::before {
+        content: 'Show More';
+    }
+
+    .show-more:checked ~ .read-more-trigger::before {
+        content: "Show Less";
+    }
+
+    .read-more-trigger {
+        cursor: pointer;
+        display: inline-block;
+        padding: 0 10px;
+        color: black;
+        font-size: 14px;
+        line-height: 30px;
+        border: 1px solid black;
+        border-radius: 5px;
+    }
+
     .ellipsis {
         overflow: hidden;
         display: -webkit-box;
@@ -39,7 +76,7 @@
     }
 
     .ellipsis.width2 {
-        width: 280px;
+        width: 290px;
     }
 
     .ellipsis-n {
@@ -110,13 +147,13 @@
     }
 
     .design-clear img {
-        width: 37%;
+        width: 33%;
         float: left;
     }
 
     .res-text{
         vertical-align: middle;
-        width: 64%;
+        width: 61%;
         float: right;
     }
     
@@ -132,6 +169,11 @@
         margin-right: 30px;
     }
 
+    .cofounder-list ul li {
+        word-break: break-word;
+        min-width: 30%;
+    }
+
     .cofounder-list li {
         width: 30%;
         margin: 0 auto;
@@ -142,13 +184,12 @@
         padding-bottom: 5px; 
     }
 
-    .business-partners img {
-        max-width: 70px;
-        margin-right: 50px;
+    .business-partners {
+        width: 80%;
     }
 
-    .business-partners {
-        width: 100%;
+    .business-partners a img {
+        max-width: 70px;
     }
 
     .sign-up {
@@ -159,15 +200,20 @@
         margin-top: 20px;
     }
 
-    .form-content input {
-        width: 200px;
-        line-height: 50px;
+    .form-content input:not(:last-child){
+        font-size: 14px;
+        display: inline-block;
+        width: 29%;
+        height: 40px;
         padding: 0 10px;
+        margin-right: 20px; 
+        margin-top: 0px; 
     }
 
-    .form-content input:not(:last-child){
-        display: inline-block;
-        width: 32%;
+    .form-content input[type="submit"] {
+        width: 145px;
+        line-height: 38px;
+        padding: 0 15px;
     }
 
     .condition {
@@ -176,13 +222,13 @@
 
     .f-left-wrap {
         float: left;
-        width: 50%;
+        width: 46%;
+        margin-right: 20px;
     }    
 
     .f-right-wrap {
         float: right;
         width: 50%;
-
     }
 
     .f-left-wrap .support {
@@ -242,7 +288,7 @@
     }
 
     .ellipsis.width2 {
-        width: 345px;
+        width: 340px;
     }
 
     .ellipsis-n {
@@ -255,13 +301,16 @@
     }
 
     .header-content {
-        top: 20%;
+        width: 70%;
     }
 
     .back-image {
         padding: 192px 0px 130px;
-        background: linear-gradient(90deg, rgba(255,255,255,1) 65%, rgba(236,236,236,1) 65%);
-        background-repeat: no-repeat;
+        background-image:linear-gradient(90deg, rgba(255,255,255,1) 65%, rgba(236,236,236,1) 65%);
+    }
+
+    .back-image img {
+        width: 50%;
     }
 
     .back-image .design-content {
@@ -358,12 +407,16 @@
         width: 100%;
     }
 
-    .business-partners img {
-        max-width: 86px;
+    .business-partners a img {
+        display: inline-block;
+        max-width: 86px;        
+    }
+
+    .business-partners a {
         margin-right: 10%;
     }
 
-    .business-partners img:last-child {
+    .business-partners a:last-child {
         margin: 0px;
     }
 
@@ -389,29 +442,28 @@
     .anamoly {
         display: block;
         color: white;
-        margin-left: 10px;
-        text-align: left;
-        
-    }
-    .anamoly img {
-        display: block;
         float: right;
-        max-width: 30px;
-        min-height: 30px;
     }
 
-    .anamoly span {
-        float: right;
+    .anamoly span{
+        display: inline-block;
+        font-size: 14px;
+        vertical-align: top;
+        margin-left: -27px; 
+    }
+
+    .anamoly img {
+        max-width: 49px;
     }
 
     .form-content {
-        width: 100%;
+        width: 90%;
+        margin: auto;
     }
 
     .form-content input:not(:last-child) {
-        width: 22.564102%;
-        margin-right: calc(3px + 1vw);
-        /* display: block; */
+        width: 23.564102%;
+        margin-right: 10px; 
     }
 
     .form-content input:last-child {
@@ -431,12 +483,13 @@
     }
 
     .f-left-wrap {
-        width: 50%;
         float: left;
+        width: 49%;
+        margin-right: 12px; 
     }
 
     .f-right-wrap {
-        width: 50%;
+        width: 47%;
         float: right;
     }
 
@@ -473,6 +526,7 @@
     .input-footer {
         margin-top: 0px;
     }
+
     .footer-logo {
         width: 65%;
     }
