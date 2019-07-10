@@ -103,7 +103,18 @@
         <div class="design">
             <div class="page-wrapper clearfix">
                 <div class="design-content design-clear clearfix">
-                    <img src="./images/macbook.png" alt="macbook pro">
+                    <div id="car" class="car1">
+                        <ul class="sliderWrapper">
+                            <li class="mac-book" data-state="active"><img src="./images/Pen-holder.png" alt="macbook pro"></li>      
+                            <li class="mac-book" data-state="active"><img src="./images/Coffee-Cup.png" alt="images"></li>
+                            <li class="mac-book" data-state="active"><img src="./images/macbook.png" alt="images"></li>
+                        </ul>
+                        <div class="navigator">
+                                <input class="buttons" name="button" data-slide="1" data-state="active" checked type="radio" />
+                                <input class="buttons" name="button" data-slide="2" type="radio" />
+                                <input class="buttons" name="button" data-slide="3" type="radio" />
+                        </div>
+                    </div>
                     <div class="res-text">
                         <span class="title">new design</span>
                         <h2 class="ellipsis width2">
@@ -277,5 +288,6 @@
             </div>
         </div>
     </div>
+    <script src="./js/slider.js"></script>
 </body>
 </html>
