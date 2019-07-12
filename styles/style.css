@@ -70,6 +70,12 @@ p {
     color: #ff6d6d;
 }
 
+.play-button {
+    position: fixed;
+    bottom: 0px;
+    left: 50%;
+}
+
 .xtra-class h2 + p { 
     margin-bottom:30px;
 }

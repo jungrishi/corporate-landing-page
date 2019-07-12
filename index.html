@@ -13,11 +13,15 @@
 </head>
 <body>
     <div class="main-container">
-        <div class="header" id="v-player">
-                <div class="header-content">
-                    <h1>There is no other platforms for you as like </h1>
+        <div class="header">
+            <!-- <div class="container"> -->
+            <video id="video">
+                <source src="./video/web-design-into.mp4" type="video/mp4" />
+            </video>
+                <div class="header-content overlay" id="startContent" >
+                <h1>There is no other platforms for you as like </h1>
                 <div class="player" id="a-player">
-                    <div class="play-button">
+                    <div class="play-button"  id="playButton">
                             <svg class="play-icon"
                             xmlns="http://www.w3.org/2000/svg"
                             xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -44,6 +48,7 @@
                     </div>
                 </div>
                 </div>
+            <!-- </div>     -->
         </div>
         <div class="back-image">
             <img src="./images/Rectangle-21-copy.png" alt="image triangle">
@@ -277,5 +282,6 @@
             </div>
         </div>
     </div>
+    <script src="./js/videoPlayer.js"></script>
 </body>
 </html>
