@@ -32,7 +32,7 @@ body {
 .page-wrapper {
     max-width: 90em;
     margin: 0 auto;
-    padding: 0px 20px;
+    padding: 40px 20px;
 }
 
 .header-content {
@@ -66,7 +66,7 @@ body {
 .design-content {
     width: 100%;
     text-align: left;
-    padding: 14.263888% 0%;
+    /* padding: 14.263888% 0%; */
 }
 
 .features {  
@@ -75,7 +75,6 @@ body {
 }
 
 .features-content {
-    padding: 9.513888% 0%;
     width: 100%;
     text-align: center;
 }
@@ -92,8 +91,6 @@ body {
     background-repeat: no-repeat, no-repeat;
     text-align: center;
     background-size: cover;
-    padding-top: 7.083333%; 
-    padding-bottom: 80px;
 }
 
 .cofounder-list img {
@@ -103,7 +100,7 @@ body {
 }
 
 .business-partners {
-    margin: 30px auto 0px;
+    margin-top: 30px ;
     width: 100%;
 }
 
@@ -118,10 +115,12 @@ body {
 }
 
 .new-features {
-    padding-top: 7.430555%; 
     text-align: center;
     width: 100%;
     background: #f6f5f3;
+}
+.browser {
+    margin-bottom: -40px;
 }
 
 .browser p {
@@ -129,7 +128,7 @@ body {
 }
 
 .sign-up {
-    padding: 6.805555% 0%;
+    /* padding: 6.805555% 0%; */
     width: 100%;
     background: url("../images/trynowbg.png") no-repeat;
     background-size: cover; 
@@ -142,7 +141,7 @@ body {
     text-align: center;
 }
 
-.anamoly {
+.skew-arrow {
     display: none;
 }
 
@@ -153,5 +152,4 @@ body {
 .footer-content {
     font-size: 14px;
     width: 100%;
-    padding: 5.90277% 0%; 
 }
