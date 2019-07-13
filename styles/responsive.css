@@ -61,33 +61,10 @@
         border-radius: 5px;
     }
 
-    .ellipsis {
-        overflow: hidden;
-        display: -webkit-box;
-        -webkit-line-clamp: 2;
-        -webkit-box-orient: vertical;
-        /* position: relative;   */
-        color: #ff6d6d;
-    }
-
-    h2::after {
+    .color-me::after {
         content: "....";
         color: #ff6d6d;
-        display: block;
-        /* position: absolute; */
-        /* bottom: 0; */
-        /* right: 0; */
-        width: 40px;
-        /* z-index: 1; */
-        
-    }
-
-    .ellipsis.width1{
-        width: 100%;
-    }
-
-    .ellipsis.width2 {
-        width: 290px;
+        width: 40px;        
     }
 
     .ellipsis-n {
@@ -215,7 +192,7 @@
     .form-content input:not(:last-child){
         font-size: 14px;
         display: inline-block;
-        width: 30%;
+        width: 31.80000%;
         height: 40px;
         padding: 0 10px;
         margin: 0px 10px 35px 0px;
@@ -493,7 +470,6 @@
     }
 
     .sign-up {
-        /* padding: 110px 0px; */
         text-align: center;
     }
 
@@ -514,13 +490,8 @@
         max-width: 49px;
     }
 
-    .form-content {
-        width: 90%;
-        margin: auto;
-    }
-
     .form-content input:not(:last-child) {
-        width: 23.564102%;
+        width: 25.199999%;
         margin-right: 10px; 
     }
 
@@ -535,45 +506,53 @@
         background-position: 268% 83%;
     }
 
+    .footer .page-wrapper {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    .footer-content .support label {
+        font-size: 22px;
+    }
+
     .address img{
         max-width: 65px;
     }
 
-    .footer-content {
-        width: 90%; /*look htrough */
+    .subscribe {
+        font-size: 22px;
     }
 
     .f-left-wrap {
         float: left;
-        width: 49%;
-        margin-right: 12px; 
+        width: 70%;
+        box-sizing: border-box;
     }
 
     .f-right-wrap {
-        width: 47%;
-        float: right;
+        width: 53%;
+        float: left;
     }
 
     .f-left-wrap .address {
         float: left;
-        width: 68.299154%;
+        width: 44.299154%;
         margin-right: 10px;    
     }
 
-    .f-left-wrap .support {
-        width: 27.299154%;
-        float: right;
+    .support-l {
+        width: 43%; 
     }
 
-    .f-right-wrap .support {
-        margin-right: 10px;
-        width: 30.299154%;
+    .support-r {
+        width: 40%;
+    }
+
+    .input-footer {
         float: left;
-    }
+        text-align: left;
+        margin: 0px;
+        width: 23.299154%;
 
-    .f-right-wrap .input-footer {
-        width: 65.299154%;
-        float: right;
     }
 
     .support li a {
@@ -581,16 +560,8 @@
         width: 100%;
     }
 
-    .notify {
-        margin-top: 4px;
-    }
-
     .notify input[type="Email"] {
-        width: 75%;
-    }
-
-    .input-footer {
-        margin-top: 0px;
+        width: 100%;
     }
 }
 

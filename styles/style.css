@@ -259,7 +259,7 @@ p {
 
 .subscribe {
     display: inline-block;
-    padding: 15px 0px;
+    padding-bottom: 15px;
     font-size: 16px;
     font-weight: 600;
 }
