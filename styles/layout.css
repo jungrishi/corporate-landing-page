@@ -9,7 +9,7 @@ body {
 }
 
 .header{
-    height: 100vh; /*chrome bug*/
+    height: 100vh; 
     background: url('../images/bg-image1.png') no-repeat;
     background-size: 100% 100%;
     position: relative;
@@ -66,7 +66,6 @@ body {
 .design-content {
     width: 100%;
     text-align: left;
-    /* padding: 14.263888% 0%; */
 }
 
 .features {  
@@ -153,4 +152,22 @@ body {
 .footer-content {
     font-size: 14px;
     width: 100%;
+}
+
+.carousal-contain {
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.slider-wrapper {
+    width: 200%;
+    position: absolute;
+}
+
+.slider-wrapper ul {
+    width: 100%;
+    position: absolute;
+    height: auto;
 }

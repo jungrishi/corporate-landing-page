@@ -20,7 +20,6 @@
     h2 {
         letter-spacing: 1.6px;
         font-size: 25px;
-        /* font-weight: 599; */
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
     }
@@ -39,7 +38,6 @@
         opacity: 1;
         font-size: inherit;
         max-height: 100em;
-        /* transition: .1s all; */
     }
 
     .show-more-state ~ .read-more-trigger::before {
@@ -153,7 +151,7 @@
         margin-right: 30px;
     }
 
-    .cofounder-list ul li {
+    .cofounder-list li {
         word-break: break-word;
         min-width: 30%;
     }
@@ -179,10 +177,6 @@
 
     .sign-up {
         text-align: center;
-    }
-    
-    form {
-        margin-top: 20px;
     }
 
     .footer-content {
@@ -285,7 +279,7 @@
 
     .input-footer input[type="Email"] {
         width: 100%;
-        padding: 10px 15px;
+        padding: 10px 65px 10px 15px;
     }
 }
 
@@ -460,37 +454,38 @@
         text-align: center;
     }
 
-    .anamoly {
+    .skew-arrow {
         display: block;
         color: white;
         float: right;
+        margin-right: 25px;
     }
 
-    .anamoly span{
+    .skew-arrow span{
         display: inline-block;
-        font-size: 14px;
+        font-size: 10px;
         vertical-align: top;
         margin-left: -27px; 
     }
 
-    .anamoly img {
-        max-width: 49px;
+    .skew-arrow img {
+        max-width: 44px;
     }
 
     .form-content input:not(:last-child) {
-        width: 25.199999%;
+        width: 23.599999%;
         margin-right: 10px; 
     }
 
     .form-content input:last-child {
-        width: 18.333333%;
+        width: 23.433333%;
         display: inline-block;
     } 
 
     .footer {
         background: url(../images/Rectangle.png) no-repeat;
-        background-size: 72.3%;
-        background-position: 268% 83%;
+        background-size: 75.3%;
+        background-position: 280% 92%;
     }
 
     .footer .page-wrapper {
@@ -502,7 +497,7 @@
     }
 
     .address img{
-        max-width: 65px;
+        max-width: 67px;
     }
 
     .subscribe {
@@ -553,49 +548,17 @@
 }
 
 
-/* @media (min-width: 1440px) {
-    h1 {
-        font-size: 60px;
+@media (min-width: 1440px) {
+    .f-left-wrap {
+        width: 61%;
     }
 
-    .ellipsis.width1 {
-        width: 552px;
+    .f-left-wrap .address {
+        width: 40.299154%;
+        margin-right: 10px; 
     }
 
-    .ellipsis.width2 {
-        width: 460px;
+    .f-right-wrap {
+        width: 58%;
     }
-
-    .ellipsis-n {
-        width: 700px;
-    }
-
-    h2 {
-        font-size: 39.98px; 
-    }
-
-    .features-list {
-        padding-top: 90px;
-    }
-
-    h3 {
-        font-size: 22px;
-        line-height: 49.97px;
-    }
-
-    p {
-        letter-spacing: 0.64px;
-    }
-
-    .title {
-        line-height: 49.97px;
-    }
-
-    .back-image .design-content {
-        width: 70%;
-    }
-
-    .address li {
-        line-height: 29px;
-    }
-} */
+}

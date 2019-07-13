@@ -251,10 +251,9 @@ p {
     border-bottom: 1px solid black; 
 }
 
-
 .input-footer {
     width: 100%;
-    margin-top: 12px;
+    margin-top: 30px;
 }
 
 .subscribe {
@@ -277,7 +276,7 @@ p {
 .input-footer input[type="Email"] {
     font-family: 'Exo', sans-serif;
     font-size: 16px;
-    padding: 12px 7px;
+    padding: 12px 57px 12px 7px;
     height: 46px;
     line-height: normal;
     border: 1px solid rgba(228, 228, 231, 1);
@@ -310,7 +309,6 @@ p {
     position: absolute;
     top:0;
     right: 0px;
-    margin-right: -2px;
     width: 50px;
     height: 46px;
 }
@@ -321,7 +319,7 @@ p {
 
 .footer-logo {
     text-align: center;
-    padding-top: 20px;
+    padding-top: 12px;
 }
 
 .footer-logo li {
@@ -337,6 +335,11 @@ p {
     fill: #cccccc;
     vertical-align: middle;
     margin-left:10px;
+}
+
+.footer-logo li a svg:hover {
+    border-radius: 7px; 
+    box-shadow: 0px 4px 4px 0px rgba(20, 20, 20, 0.2);
 }
 
 .twitter:hover {
