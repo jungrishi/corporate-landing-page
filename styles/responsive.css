@@ -66,11 +66,24 @@
         display: -webkit-box;
         -webkit-line-clamp: 2;
         -webkit-box-orient: vertical;
-        color: #ff6d6d;         
+        /* position: relative;   */
+        color: #ff6d6d;
+    }
+
+    h2::after {
+        content: "....";
+        color: #ff6d6d;
+        display: block;
+        /* position: absolute; */
+        /* bottom: 0; */
+        /* right: 0; */
+        width: 40px;
+        /* z-index: 1; */
+        
     }
 
     .ellipsis.width1{
-        width: 360px;
+        width: 100%;
     }
 
     .ellipsis.width2 {
@@ -202,11 +215,15 @@
     .form-content input:not(:last-child){
         font-size: 14px;
         display: inline-block;
-        width: 29%;
+        width: 30%;
         height: 40px;
         padding: 0 10px;
-        margin-top: 0px; 
+        margin: 0px 10px 35px 0px;
         text-align: left;
+    }
+
+    .form-content input:nth-child(3) {
+        margin: 0;
     }
 
     .form-content input[type="text Email"] {
@@ -217,26 +234,26 @@
         width: 145px;
         line-height: 38px;
         padding: 0 15px;
+        margin-bottom: 20px
     }
 
     .condition {
-        font-size: 16px;
+        font-size: 13px;
     }
 
     .f-left-wrap {
-        float: left;
-        width: 46%;
-        margin-right: 20px;
+        width: 100%;
     }    
 
     .f-right-wrap {
         float: right;
-        width: 50%;
+        width: 54%;
     }
 
     .f-left-wrap .address {
         display: block;
         float: left;
+        width: 37%;
         border-bottom: none;
         margin-bottom: 10px;
     }
@@ -244,20 +261,23 @@
     .support {
         display: block;
         border: none;
+        float: left;
+        width: 46%;
     }
 
     .support li {
         padding: 0px 0px 15px;
     }
 
-    .f-left-wrap .support {
-        float: right;
-    } 
+    .f-right-wrap > .support-l {
+        margin-right: 13px;
+    }
 
     .footer-content .support label {
         font-size: 18px; 
         cursor: default;
         padding: 0px 0px 15px;
+        line-height: 30px;
     }
 
     .footer-content .support label::after {
@@ -273,23 +293,29 @@
     }
 
     .notify {
-        margin-top: 4px;
         width: 100%;
     }
 
     .input-footer {
-        margin-top: 30px;
+        text-align: center;
+        margin: 30px auto 0px;
+        width: 60%;
+    }
+
+    .subscribe {
+        font-size: 18px;
     }
 
     .input-footer input[type="Email"] {
         width: 100%;
+        padding: 10px 15px;
     }
 }
 
 @media (min-width: 1024px){
 
     .page-wrapper {
-        padding: 0px 135px;
+        padding: 110px 135px;
     }
 
     h1 {
@@ -329,8 +355,12 @@
 
     .back-image {
         position: relative;
-        padding: 192px 0px 130px;
+        /* padding: 192px 0px 130px; */
         background-image:linear-gradient(90deg, rgba(255,255,255,1) 65%, rgba(236,236,236,1) 65%);
+    }
+
+    .back-image .page-wrapper {
+        padding-top: 192px;
     }
 
     .back-image img {
@@ -352,7 +382,7 @@
     }
 
     .features {
-        padding: 139px 0px;
+        /* padding: 139px 0px; */
     }
 
     .features-content {
@@ -398,7 +428,7 @@
     }
 
     .rect {
-        padding: 100px 0px;
+        /* padding: 100px 0px; */
     }
 
     .res-text {
@@ -406,7 +436,7 @@
     }
 
     .cofounder {
-        padding: 110px 0px;
+        /* padding: 110px 0px; */
     }
 
     .cofounder-name {
@@ -448,22 +478,22 @@
         margin: 0px;
     }
 
-    .new-features {
-        padding-top: 107px;
-    }
-
     .browser {
         padding: 0;
-        width: 66.250000%; 
-        margin: 0 auto;
+        width: 100%; 
     }
 
     .browser p {
         padding-bottom: 107px; 
     }
 
+    .content-wrapper {
+        width: 66.250000%;
+        margin: 0 auto;
+    }
+
     .sign-up {
-        padding: 110px 0px;
+        /* padding: 110px 0px; */
         text-align: center;
     }
 
@@ -510,7 +540,7 @@
     }
 
     .footer-content {
-        width: 90%;
+        width: 90%; /*look htrough */
     }
 
     .f-left-wrap {
@@ -562,11 +592,6 @@
     .input-footer {
         margin-top: 0px;
     }
-
-    h4 {
-        font-size: 20px;
-    }
-
 }
 
 

@@ -120,8 +120,9 @@ body {
     width: 100%;
     background: #f6f5f3;
 }
-.browser {
-    margin-bottom: -40px;
+
+.new-features .page-wrapper{
+    padding-bottom: 0px;
 }
 
 .browser p {
@@ -129,7 +130,6 @@ body {
 }
 
 .sign-up {
-    /* padding: 6.805555% 0%; */
     width: 100%;
     background: url("../images/trynowbg.png") no-repeat;
     background-size: cover; 
