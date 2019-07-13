@@ -35,9 +35,11 @@
     }
 
     .show-more-state:checked ~ .read-more-wrap .read-more-target{
+        display: inline-block;
         opacity: 1;
         font-size: inherit;
         max-height: 100em;
+        margin-bottom: 30px;
     }
 
     .show-more-state ~ .read-more-trigger::before {
@@ -80,6 +82,7 @@
 
     h3 {
         font-size: 18px;
+        padding-bottom: 20px;
         letter-spacing: 0.9px;
     }
 
