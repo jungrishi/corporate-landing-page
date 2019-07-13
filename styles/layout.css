@@ -8,15 +8,15 @@ body {
     height: 100%;
 }
 
-.header{
+.fold {
     height: 100vh; 
-    background: url('../images/bg-image1.png') no-repeat;
+    /* background: url('../images/bg-image1.png') no-repeat; */
     background-size: 100% 100%;
     position: relative;
     margin: 0 auto;
 }
 
-.header video {
+.video {
     position: relative;
     width: 100%;
     height: 100%;
@@ -26,6 +26,12 @@ body {
 }
 
 .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
     z-index: 5;
 }
 
@@ -35,7 +41,7 @@ body {
     padding: 40px 20px;
 }
 
-.header-content {
+.fold-content {
     position: absolute;
     width: 81.250000%;
     top: 50%;
