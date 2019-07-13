@@ -71,7 +71,7 @@ p {
 }
 
 .xtra-class h2 + p { 
-    margin-bottom:30px;
+    margin-bottom:20px;
 }
 
 .design-clear img {
@@ -197,7 +197,7 @@ p {
 .address img{
     max-width: 70px;
     vertical-align: middle;
-    padding: 15px;
+    padding: 0px 0px 15px;
 }
 
 .show-support-state {
@@ -228,6 +228,29 @@ p {
 .support li  {
     padding: 15px 0px;
 }
+
+.footer-content .support label::after {
+    content: "\E003";
+    display: inline-block;
+    font-size: 12px;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.footer-content .support ul {
+    display: none;
+}
+
+.show-support-state:checked ~ label::after{
+    content: "\E003";
+}
+
+.show-support-state:checked ~ ul {
+    display: block;
+    max-height: 100em;
+    border-bottom: 1px solid black; 
+}
+
 
 .input-footer {
     width: 100%;
@@ -330,25 +353,4 @@ p {
 
 .googleplus:hover {
     fill: #CC3333;
-}
-.footer-content .support label::after {
-    content: "\E003";
-    display: inline-block;
-    font-size: 12px;
-    vertical-align: middle;
-    margin-left: 10px;
-}
-
-.footer-content .support ul {
-    display: none;
-}
-
-.show-support-state:checked ~ label::after{
-    content: "\e007";
-}
-
-.show-support-state:checked ~ ul {
-    display: block;
-    max-height: 100em;
-    border-bottom: 1px solid black; 
 }

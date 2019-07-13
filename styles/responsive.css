@@ -7,7 +7,7 @@
 
 @media (min-width: 768px){
     .page-wrapper {
-        padding: 0px 70px; 
+        padding: 90px 70px; 
     }
 
     h1 {
@@ -72,10 +72,6 @@
     .ellipsis.width1{
         width: 360px;
     }
-
-    /* .width1::before {
-        content: ".";
-    } */
 
     .ellipsis.width2 {
         width: 290px;
@@ -184,6 +180,7 @@
 
     .business-partners {
         width: 80%;
+        margin: 0 auto;
     }
 
     .business-partners a img {
@@ -194,8 +191,12 @@
         text-align: center;
     }
     
-    .form {
+    form {
         margin-top: 20px;
+    }
+
+    .footer-content {
+        text-align: left;
     }
 
     .form-content input:not(:last-child){
@@ -233,16 +234,42 @@
         width: 50%;
     }
 
-    .f-left-wrap .support {
-        display: block;
-    }
-
     .f-left-wrap .address {
         display: block;
+        float: left;
+        border-bottom: none;
+        margin-bottom: 10px;
     }
 
-    .f-right-wrap .support {
+    .support {
         display: block;
+        border: none;
+    }
+
+    .support li {
+        padding: 0px 0px 15px;
+    }
+
+    .f-left-wrap .support {
+        float: right;
+    } 
+
+    .footer-content .support label {
+        font-size: 18px; 
+        cursor: default;
+        padding: 0px 0px 15px;
+    }
+
+    .footer-content .support label::after {
+        content: '';
+    }
+
+    .footer-content .support ul {
+        display: block;   
+    }
+
+    .show-support-state:checked ~ ul {
+        border-bottom: none;
     }
 
     .notify {
@@ -255,13 +282,8 @@
     }
 
     .input-footer input[type="Email"] {
-        width: 84%;
+        width: 100%;
     }
-
-    h4 {
-        font-size: 18px;
-    }
-
 }
 
 @media (min-width: 1024px){
