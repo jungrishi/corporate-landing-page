@@ -92,7 +92,7 @@ p {
 .post {
     display: inline-block;
     font-size: 14px;
-    padding: 5px 0px 10px;
+    padding-bottom: 10px;
     color: #ff6d6d;
 }
 
@@ -231,6 +231,7 @@ p {
 
 .input-footer {
     width: 100%;
+    margin-top: 12px;
 }
 
 .subscribe {
@@ -251,13 +252,14 @@ p {
 }
 
 .input-footer input[type="Email"] {
-    display: block;
     font-family: 'Exo', sans-serif;
     font-size: 16px;
     padding: 12px 7px;
+    height: 46px;
     line-height: normal;
+    border: 1px solid rgba(228, 228, 231, 1);
     border-radius: 4px;
-    background: #f6f6f6;
+    background: #ececec;
     border: none;
     outline: none;
     box-sizing: border-box;
@@ -266,6 +268,11 @@ p {
 
 .input-footer input[type="Email"]::placeholder {
     opacity: 0.4;
+}
+
+.input-footer input[type="Email"]:focus, .button {
+    border: 1px solid rgb(96, 96, 109);
+    
 }
 
 .button {
@@ -303,12 +310,27 @@ p {
     width: 100%;
 }
 
-.footer-logo li .svg-logo {
-    fill: #3b5998 ;
-    width: 11px;
-    height: 21px;
+.footer-logo li a svg {
+    fill: #cccccc;
+    vertical-align: middle;
+    margin-left:10px;
 }
 
+.twitter:hover {
+    fill:#03A9F4;
+}
+
+.facebook:hover {
+    fill: #3b5998;
+}
+
+.dribble:hover {
+    fill:#ea4c89;
+}
+
+.googleplus:hover {
+    fill: #CC3333;
+}
 .footer-content .support label::after {
     content: "\E003";
     display: inline-block;

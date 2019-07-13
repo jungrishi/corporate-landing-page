@@ -27,7 +27,6 @@
 
     .show-more-state {
         display: none;
-        
     }
 
     .read-more-target {
@@ -39,7 +38,7 @@
     .show-more-state:checked ~ .read-more-wrap .read-more-target{
         opacity: 1;
         font-size: inherit;
-        max-height: 999em;
+        max-height: 100em;
         /* transition: .1s all; */
     }
 
@@ -47,7 +46,7 @@
         content: 'Show More';
     }
 
-    .show-more:checked ~ .read-more-trigger::before {
+    .show-more-state:checked ~ .read-more-trigger::before {
         content: "Show Less";
     }
 
