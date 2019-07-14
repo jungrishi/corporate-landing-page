@@ -51,6 +51,7 @@ p {
     color: white;
     line-height: 50px;
     margin-bottom: 20px;
+    width: 90px;
 }
 
 .try-now-button:hover {
@@ -59,7 +60,7 @@ p {
 
 .card-detail {
     font-size: 13px;
-    opacity: 0.6;
+    opacity: 1;
 }
 
 /*body*/
