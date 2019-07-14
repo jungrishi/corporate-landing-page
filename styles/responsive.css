@@ -351,7 +351,7 @@
     }
 
     .back-image .design-content {
-        width: 63%; 
+        width: 60%; 
     }
 
     .design-content {
@@ -557,6 +557,28 @@
 
 
 @media (min-width: 1440px) {
+    h1 {
+        font-size: 60px;
+        width: 90%;
+    }
+
+    .width1 {
+        width: 560px;
+    }
+
+    .try-now-button {
+        width: 150px; 
+    }
+
+    h2 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .width2 {
+        width: 460px;
+    }
+    
     .f-left-wrap {
         width: 61%;
     }
