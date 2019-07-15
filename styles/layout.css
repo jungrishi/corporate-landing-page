@@ -10,29 +10,15 @@ body {
 
 .fold {
     height: 100vh; 
-    background: url('../images/bg-image1.png') no-repeat;
-    background-size: 100% 100%;
     position: relative;
     margin: 0 auto;
 }
 
 .video {
-    position: relative;
     width: 100%;
     height: 100%;
     z-index: 1;
     object-fit: fill;
-    display: none;
-}
-
-.overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    width: 100%;
-    z-index: 5;
 }
 
 .page-wrapper {
@@ -48,10 +34,13 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+    z-index: 5;
 }
+
 .play-icon {
     opacity: 0.7;
     vertical-align: middle;
+    cursor: pointer;
 }
 
 .play-icon:hover {
@@ -106,7 +95,7 @@ body {
 }
 
 .business-partners {
-    margin-top: 30px ;
+    margin-top: 40px ;
     width: 100%;
 }
 
